@@ -1,0 +1,14 @@
+Exporting services for dispatch...
+Exporting virtualworkfriendpikachuen_general LUIS application...
+
+ERROR
+One or more errors occurred. (The remote server returned an error: (400) Bad Request.)
+
+Request url: https://westus.api.cognitive.microsoft.com/luis/api/v2.0/apps/10aca124-099b-4f65-b64d-e3247da7d30b/versions/0.1/export
+Response: {
+  "error": {
+    "code": "BadArgument",
+    "message": "Cannot find an application with the ID 10aca124-099b-4f65-b64d-e3247da7d30b."
+  }
+}
+------

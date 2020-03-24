@@ -1,0 +1,110 @@
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   0         Success            
+ Confirm                            Intent Classifier   0         Success            
+ Escalate                           Intent Classifier   0         Success            
+ FinishTask                         Intent Classifier   0         Success            
+ GoBack                             Intent Classifier   0         Success            
+ Help                               Intent Classifier   0         Success            
+ Logout                             Intent Classifier   0         Success            
+ None                               Intent Classifier   0         Success            
+ ReadAloud                          Intent Classifier   0         Success            
+ Reject                             Intent Classifier   0         Success            
+ Repeat                             Intent Classifier   0         Success            
+ SelectAny                          Intent Classifier   0         Success            
+ SelectItem                         Intent Classifier   0         Success            
+ SelectNone                         Intent Classifier   0         Success            
+ ShowNext                           Intent Classifier   0         Success            
+ ShowPrevious                       Intent Classifier   0         Success            
+ StartOver                          Intent Classifier   0         Success            
+ Stop                               Intent Classifier   0         Success            
+ DirectionalReference               Entity Extractor    0         Success            
+'
+Running.              '
+Running..              '
+Running...              '
+Running....              '
+Running.....              '
+Running......              '
+Running.......              '
+Succeeded........              done
+'
+NotStarted.              '
+NotStarted..              '
+Running...              '
+Running....              '
+Running.....              '
+Running......              '
+Running.......              '
+Running........              '
+Running.........              '
+Succeeded..........              done
+Exporting services for dispatch...
+Exporting virtualworkfriendpikachuen_general LUIS application...
+Exported LUIS app JSON is at C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_L_virtualworkfriendpikachuen_general.json
+Exporting chitchat QnA kb...
+Exported QnA app JSON is at C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_Q_q_chitchat.json
+Expanding kb 8891b99c-c467-4330-9745-748f8c60653e with word alterations
+Exporting faq QnA kb...
+Exported QnA app JSON is at C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_Q_q_faq.json
+Expanding kb de56bbab-3b5a-4eba-a247-73717fe7c38a with word alterations
+Creating dispatch LUIS model json...
+Creating training data...
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\train.txt' that were used by multiple categories: 11
+WARNING: very few samples (breaking-point for debugging purpose), foldSize=0.6, foldsCount=5, Samples.Length=3, category=None, TrainingSamplesCount=2, TestingSamplesCount=1
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold000\train.txt' that were used by multiple categories: 7
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold000\test.txt' that were used by multiple categories: 1
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold001\train.txt' that were used by multiple categories: 9
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold002\train.txt' that were used by multiple categories: 4
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold002\test.txt' that were used by multiple categories: 2
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold003\train.txt' that were used by multiple categories: 6
+WARNING: Number of samples in 'C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\data\_experiments\model_001\cv5\fold004\train.txt' that were used by multiple categories: 10
+Updating virtualworkfriendpikachuen_Dispatch model...
+Training virtualworkfriendpikachuen_general...
+Importing virtualworkfriendpikachuen_Dispatch model...
+Setting up intents to child services mapping for virtualworkfriendpikachuen_Dispatch...
+Add subscription key and publish child LUIS apps...
+Publishing virtualworkfriendpikachuen_general model...
+Training virtualworkfriendpikachuen_Dispatch model...
+Publishing virtualworkfriendpikachuen_Dispatch model...
+Writing summary file ('test_prediction')...
+Please review your dispatch model in C:\Users\dax\source\repos\MyAssistant-1\MyAssistant-1\MyAssistant_1\Deployment\Resources\Dispatch\en\Summary.html
