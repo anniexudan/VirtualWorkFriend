@@ -1,0 +1,130 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "134209",
+    "name": "StressHandling"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "701330"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.TextInput",
+          "$designer": {
+            "id": "237001",
+            "name": "Text input"
+          },
+          "prompt": "${bfdprompt-237001()}",
+          "unrecognizedPrompt": "${bfdunrecognizedPrompt-237001()}",
+          "maxTurnCount": "3",
+          "property": "user.stresstopic",
+          "allowInterruptions": "true",
+          "outputFormat": "=trim(this.value)"
+        },
+        {
+          "$type": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "554742",
+            "name": "Multiple choice"
+          },
+          "prompt": "${bfdprompt-554742()}",
+          "maxTurnCount": "3",
+          "property": "$dialog.confirmation",
+          "allowInterruptions": "false",
+          "outputFormat": "value",
+          "choices": [
+            {
+              "value": "Yes, show me"
+            },
+            {
+              "value": "No, talk to a therapist"
+            }
+          ],
+          "appendChoices": "true",
+          "defaultLocale": "en-us",
+          "style": "SuggestedAction",
+          "choiceOptions": {
+            "inlineSeparator": ", ",
+            "inlineOr": " or ",
+            "inlineOrMore": ", or ",
+            "includeNumbers": true
+          },
+          "recognizerOptions": {
+            "noValue": false
+          }
+        },
+        {
+          "$type": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "888490",
+            "name": "Branch: switch (multiple options)"
+          },
+          "condition": "$dialog.confirmation",
+          "cases": [
+            {
+              "value": "Yes, show me",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "109158",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "StressHandlingTips"
+                }
+              ]
+            },
+            {
+              "value": "No, talk to a therapist",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "451465",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Escalation"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$type": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "069651",
+                "name": "Begin a new dialog"
+              },
+              "activityProcessed": true,
+              "dialog": "Chitchat"
+            }
+          ]
+        },
+        {
+          "$type": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "629970",
+            "name": "Send a response"
+          },
+          "activity": "${bfdactivity-629970()}"
+        },
+        {
+          "$type": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "241299",
+            "name": "End this dialog"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "StressHandling.lg"
+}

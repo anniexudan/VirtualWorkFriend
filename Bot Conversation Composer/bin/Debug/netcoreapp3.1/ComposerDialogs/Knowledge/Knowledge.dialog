@@ -1,0 +1,148 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "309503",
+    "name": "Knowledge"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "084590"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.TextInput",
+          "$designer": {
+            "id": "829181",
+            "name": "Text input"
+          },
+          "prompt": "${bfdprompt-829181()}",
+          "maxTurnCount": "3",
+          "property": "dialog.stressquestion",
+          "allowInterruptions": "true",
+          "outputFormat": "=trim(this.value)"
+        },
+        {
+          "$type": "Microsoft.QnAMakerDialog",
+          "$designer": {
+            "id": "614714",
+            "name": "Connect to Stress Knowledgebase"
+          },
+          "knowledgeBaseId": "6c459496-0ebd-423e-af0e-f4e8861acb6a",
+          "endpointKey": "d18576a4-453c-42c6-8e12-18565cf09fbb",
+          "hostname": "https://virtualworkfriendpikachu-qnahost.azurewebsites.net/qnamaker",
+          "noAnswer": "Sorry, I did not find an answer.",
+          "threshold": "0.3",
+          "activeLearningCardTitle": "Did you mean:",
+          "cardNoMatchText": "None of the above.",
+          "cardNoMatchResponse": "Thanks for the feedback",
+          "top": "3"
+        },
+        {
+          "$type": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "058945",
+            "name": "Delete a property"
+          },
+          "property": "dialog.stressquestion"
+        },
+        {
+          "$type": "Microsoft.TextInput",
+          "$designer": {
+            "id": "721293",
+            "name": "Text input"
+          },
+          "prompt": "${bfdprompt-721293()}",
+          "maxTurnCount": "3",
+          "property": "dialog.stressquestion",
+          "allowInterruptions": "true",
+          "outputFormat": "=trim(this.value)"
+        },
+        {
+          "$type": "Microsoft.QnAMakerDialog",
+          "$designer": {
+            "id": "728206",
+            "name": "Connect to Stress Knowledgebase"
+          },
+          "knowledgeBaseId": "6c459496-0ebd-423e-af0e-f4e8861acb6a",
+          "endpointKey": "d18576a4-453c-42c6-8e12-18565cf09fbb",
+          "hostname": "https://virtualworkfriendpikachu-qnahost.azurewebsites.net/qnamaker",
+          "noAnswer": "Sorry, I did not find an answer.",
+          "threshold": "0.3",
+          "activeLearningCardTitle": "Did you mean:",
+          "cardNoMatchText": "None of the above.",
+          "cardNoMatchResponse": "Thanks for the feedback",
+          "top": "3"
+        },
+        {
+          "$type": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "104812",
+            "name": "Delete a property"
+          },
+          "property": "dialog.stressquestion"
+        },
+        {
+          "$type": "Microsoft.TextInput",
+          "$designer": {
+            "id": "235587",
+            "name": "Text input"
+          },
+          "prompt": "${bfdprompt-235587()}",
+          "maxTurnCount": "3",
+          "property": "dialog.stressquestion",
+          "allowInterruptions": "false",
+          "outputFormat": "=trim(this.value)"
+        },
+        {
+          "$type": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "143533",
+            "name": "Branch: if/else"
+          },
+          "condition": "dialog.stressquestion==\"No\"||dialog.stressquestion==\"no\"",
+          "actions": [
+            {
+              "$type": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "405578",
+                "name": "Send a response"
+              },
+              "activity": "${bfdactivity-405578()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$type": "Microsoft.QnAMakerDialog",
+              "$designer": {
+                "id": "963271",
+                "name": "Connect to Stress Knowledgebase"
+              },
+              "knowledgeBaseId": "6c459496-0ebd-423e-af0e-f4e8861acb6a",
+              "endpointKey": "d18576a4-453c-42c6-8e12-18565cf09fbb",
+              "hostname": "https://virtualworkfriendpikachu-qnahost.azurewebsites.net/qnamaker",
+              "noAnswer": "Sorry, I did not find an answer.",
+              "threshold": "0.3",
+              "activeLearningCardTitle": "Did you mean:",
+              "cardNoMatchText": "None of the above.",
+              "cardNoMatchResponse": "Thanks for the feedback",
+              "top": "3"
+            }
+          ]
+        },
+        {
+          "$type": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "711568",
+            "name": "End this dialog"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "Knowledge.lg"
+}

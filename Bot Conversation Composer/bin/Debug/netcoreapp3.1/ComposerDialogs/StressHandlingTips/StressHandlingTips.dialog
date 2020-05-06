@@ -1,0 +1,223 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "539290",
+    "name": "StressHandlingTips"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "098892"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "207947",
+            "name": "Multiple choice"
+          },
+          "prompt": "${bfdprompt-207947()}",
+          "maxTurnCount": "3",
+          "property": "$dialog.userpreference",
+          "allowInterruptions": "true",
+          "outputFormat": "value",
+          "choices": [
+            {
+              "value": "Play Music"
+            },
+            {
+              "value": "Talk Jokes"
+            },
+            {
+              "value": "Back up with knowledge"
+            },
+            {
+              "value": "Write a journal"
+            }
+          ],
+          "appendChoices": "true",
+          "defaultLocale": "en-us",
+          "style": "HeroCard",
+          "choiceOptions": {
+            "inlineSeparator": ", ",
+            "inlineOr": " or ",
+            "inlineOrMore": ", or ",
+            "includeNumbers": true
+          },
+          "recognizerOptions": {
+            "noValue": false
+          }
+        },
+        {
+          "$type": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "342446",
+            "name": "Branch: switch (multiple options)"
+          },
+          "condition": "$dialog.userpreference",
+          "cases": [
+            {
+              "value": "Play Music",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "884722",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-884722()}"
+                }
+              ]
+            },
+            {
+              "value": "Talk Jokes",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "160689",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-160689()}"
+                }
+              ]
+            },
+            {
+              "value": "Back up with knowledge",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "509161",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Knowledge"
+                }
+              ]
+            },
+            {
+              "value": "Write a journal",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "897536",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-897536()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$type": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "518946",
+                "name": "End this dialog"
+              }
+            }
+          ]
+        },
+        {
+          "$type": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "444612",
+            "name": "Multiple choice"
+          },
+          "prompt": "${bfdprompt-444612()}",
+          "maxTurnCount": "3",
+          "property": "$dialog.aftertipsresponse",
+          "allowInterruptions": "false",
+          "outputFormat": "value",
+          "choices": [
+            {
+              "value": "Yes, I feel better now"
+            },
+            {
+              "value": "Let try again"
+            },
+            {
+              "value": "No, I want to talk to a professional"
+            }
+          ],
+          "appendChoices": "true",
+          "defaultLocale": "en-us",
+          "style": "HeroCard",
+          "choiceOptions": {
+            "inlineSeparator": ", ",
+            "inlineOr": " or ",
+            "inlineOrMore": ", or ",
+            "includeNumbers": true
+          },
+          "recognizerOptions": {
+            "noValue": false
+          }
+        },
+        {
+          "$type": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "190898",
+            "name": "Branch: switch (multiple options)"
+          },
+          "condition": "$dialog.aftertipsresponse",
+          "cases": [
+            {
+              "value": "Yes, I feel better now",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "959174",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-959174()}"
+                }
+              ]
+            },
+            {
+              "value": "Let try again",
+              "actions": [
+                {
+                  "$type": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "157178",
+                    "name": "Repeat this dialog"
+                  },
+                  "includeActivity": false
+                }
+              ]
+            },
+            {
+              "value": "No, I want to talk to a professional",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "806082",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Escalation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "096733",
+            "name": "End this dialog"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "StressHandlingTips.lg"
+}

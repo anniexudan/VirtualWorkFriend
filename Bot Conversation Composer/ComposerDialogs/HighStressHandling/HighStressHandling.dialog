@@ -1,0 +1,179 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "612956",
+    "name": "HighStressHandling"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "763178"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "960218",
+            "name": "Multiple choice"
+          },
+          "prompt": "${bfdprompt-960218()}",
+          "maxTurnCount": "3",
+          "property": "user.highstresschoice",
+          "allowInterruptions": "false",
+          "outputFormat": "value",
+          "choices": [
+            {
+              "value": "Breather"
+            },
+            {
+              "value": "Talk to me"
+            }
+          ],
+          "appendChoices": "true",
+          "defaultLocale": "en-us",
+          "style": "Auto",
+          "choiceOptions": {
+            "inlineSeparator": ", ",
+            "inlineOr": " or ",
+            "inlineOrMore": ", or ",
+            "includeNumbers": true
+          },
+          "recognizerOptions": {
+            "noValue": false
+          }
+        },
+        {
+          "$type": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "185778",
+            "name": "Branch: switch (multiple options)"
+          },
+          "condition": "user.highstresschoice",
+          "cases": [
+            {
+              "value": "Breather",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "079492",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-079492()}"
+                },
+                {
+                  "$type": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "216254",
+                    "name": "Multiple choice"
+                  },
+                  "prompt": "${bfdprompt-216254()}",
+                  "maxTurnCount": "3",
+                  "property": "user.afterbreather",
+                  "allowInterruptions": "false",
+                  "outputFormat": "value",
+                  "choices": [
+                    {
+                      "value": "I am good now"
+                    },
+                    {
+                      "value": "I still need to talk to you"
+                    }
+                  ],
+                  "appendChoices": "true",
+                  "defaultLocale": "en-us",
+                  "style": "SuggestedAction",
+                  "choiceOptions": {
+                    "inlineSeparator": ", ",
+                    "inlineOr": " or ",
+                    "inlineOrMore": ", or ",
+                    "includeNumbers": true
+                  },
+                  "recognizerOptions": {
+                    "noValue": false
+                  }
+                },
+                {
+                  "$type": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "506067",
+                    "name": "Branch: switch (multiple options)"
+                  },
+                  "condition": "user.afterbreather",
+                  "cases": [
+                    {
+                      "value": "I am good now",
+                      "actions": [
+                        {
+                          "$type": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "245390",
+                            "name": "Send a response"
+                          },
+                          "activity": "${bfdactivity-245390()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "I still need to talk to you",
+                      "actions": [
+                        {
+                          "$type": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "327223",
+                            "name": "Begin a new dialog"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "StressHandling"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$type": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "200288",
+                        "name": "Send a response"
+                      },
+                      "activity": "${bfdactivity-200288()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "Talk to me",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "259270",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "StressHandling"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$type": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "729643",
+                "name": "Send a response"
+              },
+              "activity": "${bfdactivity-729643()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "HighStressHandling.lg"
+}

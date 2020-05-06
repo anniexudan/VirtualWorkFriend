@@ -1,0 +1,31 @@
+[import](common.lg)
+
+# bfdprompt-207947()
+- Please select the follow things I can do for you
+
+# bfdactivity-884722()
+[VideoCard
+    title = Music
+    media = https://www.youtube.com/watch?v=BywDOO99Ia0
+]
+
+# bfdactivity-160689()
+-https://www.rd.com/jokes/
+
+# bfdactivity-897536()
+[HeroCard
+    title = Journal
+    image = https://i.kinja-img.com/gawker-media/image/upload/s--I4E1BkV5--/c_scale,fl_progressive,q_80,w_800/641522534013585731.jpg
+    buttons ="Open my OneNote journal page"
+]
+
+# bfdprompt-444612()
+- Was that helpful?
+
+# bfdactivity-959174()
+- That's great to hear! Bye!
+
+
+
+
+

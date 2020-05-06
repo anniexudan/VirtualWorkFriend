@@ -1,4 +1,5 @@
 # VirtualWorkFriend
+##Prodict Background
 There are many benefits of talking to someone because you can:
 
 1. Sort through your feelings
@@ -17,8 +18,22 @@ Virtual Work Friend is the a AI based product which can:
 
 2. Construct conversation through IM, voice, and VR talking image.
 
-3. Fetch through the internet and find the recommended music, articles, and funny videos to help you to reduce your stress and improve your mood.
+3. Access your stress level and according it provide suitable customized stress handling methods.
 
- 4. User State Memory
- 
- 5. Escalation to professional theropist
+4. Escalate you issue to an expert by leveraging our recommending system.
+
+5. Text Analytics included Journaling capability
+
+In this repository, you will find the architectual diagram, the bot conversation composer files for conversation flow design and the codebase of this solution. 
+
+##Feature Demos:
+1. Login 
+2. Onboarding Process
+3. Conversation flow
+4. Journaling Capability;
+4. Escalation Process
+
+
+Resources used:
+Azure Virtual Assistant: https://microsoft.github.io/botframework-solutions/overview/virtual-assistant-solution/
+Bot Conversation Composer:https://docs.microsoft.com/en-us/composer/introduction

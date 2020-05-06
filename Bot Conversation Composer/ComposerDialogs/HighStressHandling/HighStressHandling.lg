@@ -1,0 +1,34 @@
+[import](common.lg)
+
+# bfdprompt-960218()
+- Oh I am sorry to hear that. Do you want to have a breather (guided meditation). Or do you want to just start talk to me about the things bothers you?
+
+# bfdprompt-216254()
+- Does that helped? Do you want to talk to me on your issue?
+
+# bfdactivity-729643()
+[VideoCard
+    title = 5 Minutes Breather
+    image = https://www.yogajournal.com/.image/t_share/MTQ2MTgwNzM5MDQ5OTg5NjY0/sunset-meditation-mudra.jpg
+    media = https://www.youtube.com/watch?v=inpok4MKVLM&t=14s
+]
+
+# bfdactivity-079492()
+[VideoCard
+    title = 5 Minutes Breather
+    image = https://www.yogajournal.com/.image/t_share/MTQ2MTgwNzM5MDQ5OTg5NjY0/sunset-meditation-mudra.jpg
+    media = https://www.youtube.com/watch?v=inpok4MKVLM&t=14s
+]
+
+# bfdactivity-200288()
+- Good Day
+
+# bfdactivity-245390()
+- That's great. Have a good day!
+
+
+
+
+
+
+

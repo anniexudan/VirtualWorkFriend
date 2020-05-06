@@ -1,0 +1,234 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "$designer": {
+      "name": "MentalHealthBot",
+      "description": "From Bot Composer",
+      "id": "031097"
+    }
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "recognizer": "Main.lu",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "name": "Welcome message"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$type": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$type": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "117313",
+                    "name": "Multiple choice"
+                  },
+                  "prompt": "${bfdprompt-117313()}",
+                  "maxTurnCount": "3",
+                  "property": "user.style",
+                  "allowInterruptions": "false",
+                  "outputFormat": "value",
+                  "choices": [
+                    {
+                      "value": "Low"
+                    },
+                    {
+                      "value": "Medium"
+                    },
+                    {
+                      "value": "High"
+                    }
+                  ],
+                  "appendChoices": "true",
+                  "defaultLocale": "en-us",
+                  "style": "Auto",
+                  "choiceOptions": {
+                    "inlineSeparator": ", ",
+                    "inlineOr": " or ",
+                    "inlineOrMore": ", or ",
+                    "includeNumbers": true
+                  },
+                  "recognizerOptions": {
+                    "noValue": false
+                  }
+                },
+                {
+                  "$type": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "618954",
+                    "name": "Branch: switch (multiple options)"
+                  },
+                  "condition": "user.style",
+                  "cases": [
+                    {
+                      "value": "High",
+                      "actions": [
+                        {
+                          "$type": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "527381",
+                            "name": "Begin a new dialog"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "HighStressHandling"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "Medium",
+                      "actions": [
+                        {
+                          "$type": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "433120",
+                            "name": "Begin a new dialog"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "StressHandling"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "Low",
+                      "actions": [
+                        {
+                          "$type": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "270729",
+                            "name": "Send a response"
+                          },
+                          "activity": "${bfdactivity-270729()}"
+                        },
+                        {
+                          "$type": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "479591",
+                            "name": "Begin a new dialog"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "Chitchat"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$type": "Microsoft.BeginDialog",
+                      "$designer": {
+                        "id": "824575",
+                        "name": "Begin a new dialog"
+                      },
+                      "activityProcessed": true,
+                      "dialog": "Chitchat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "242409"
+      },
+      "condition": "#Help.Score >= 0.8",
+      "actions": [
+        {
+          "$type": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "771838",
+            "name": "Send a response"
+          },
+          "activity": "${bfdactivity-771838()}"
+        }
+      ],
+      "intent": "Help"
+    },
+    {
+      "$type": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "380377"
+      },
+      "condition": "#Stress.Score >= 0.6",
+      "actions": [
+        {
+          "$type": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "627017",
+            "name": "Begin a new dialog"
+          },
+          "activityProcessed": true,
+          "dialog": "StressHandling"
+        }
+      ],
+      "intent": "Stress"
+    },
+    {
+      "$type": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "397338"
+      },
+      "condition": "#cancel.Score >= 0.6",
+      "actions": [
+        {
+          "$type": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "165531",
+            "name": "Begin a new dialog"
+          },
+          "activityProcessed": true,
+          "dialog": "cancel"
+        }
+      ],
+      "intent": "cancel"
+    },
+    {
+      "$type": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "019103"
+      },
+      "intent": "No",
+      "actions": [
+        {
+          "$type": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "821069",
+            "name": "Send a response"
+          },
+          "activity": "${bfdactivity-821069()}"
+        },
+        {
+          "$type": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "232652",
+            "name": "Begin a new dialog"
+          },
+          "activityProcessed": true,
+          "dialog": "AskForFeedback"
+        }
+      ]
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
+  "generator": "Main.lg"
+}

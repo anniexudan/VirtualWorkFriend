@@ -1,0 +1,38 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "531101",
+    "name": "Escalation"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "872972"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "570331",
+            "name": "Send a response"
+          },
+          "activity": "${bfdactivity-570331()}"
+        },
+        {
+          "$type": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "811240",
+            "name": "Begin a new dialog"
+          },
+          "activityProcessed": true,
+          "dialog": "Chitchat"
+        }
+      ]
+    }
+  ],
+  "generator": "Escalation.lg"
+}

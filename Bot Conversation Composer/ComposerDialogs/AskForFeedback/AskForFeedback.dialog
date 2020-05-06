@@ -1,0 +1,114 @@
+{
+  "$type": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "367715",
+    "name": "AskForFeedback"
+  },
+  "autoEndDialog": "true",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$type": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "933101"
+      },
+      "actions": [
+        {
+          "$type": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "251610",
+            "name": "Multiple choice"
+          },
+          "prompt": "${bfdprompt-251610()}",
+          "maxTurnCount": "3",
+          "property": "$dialog.aftertipsresponse",
+          "allowInterruptions": "false",
+          "outputFormat": "value",
+          "choices": [
+            {
+              "value": "Yes, I feel better now"
+            },
+            {
+              "value": "Let try again"
+            },
+            {
+              "value": "No, I want to talk to a professional"
+            }
+          ],
+          "appendChoices": "true",
+          "defaultLocale": "en-us",
+          "style": "HeroCard",
+          "choiceOptions": {
+            "inlineSeparator": ", ",
+            "inlineOr": " or ",
+            "inlineOrMore": ", or ",
+            "includeNumbers": true
+          },
+          "recognizerOptions": {
+            "noValue": false
+          }
+        },
+        {
+          "$type": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "559430",
+            "name": "Branch: switch (multiple options)"
+          },
+          "condition": "$dialog.aftertipsresponse",
+          "cases": [
+            {
+              "value": "Yes, I feel better now",
+              "actions": [
+                {
+                  "$type": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "245962",
+                    "name": "Send a response"
+                  },
+                  "activity": "${bfdactivity-245962()}"
+                }
+              ]
+            },
+            {
+              "value": "Let try again",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "881876",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "StressHandlingTips"
+                }
+              ]
+            },
+            {
+              "value": "No, I want to talk to a professional",
+              "actions": [
+                {
+                  "$type": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "501325",
+                    "name": "Begin a new dialog"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Escalation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "228996",
+            "name": "End this dialog"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "AskForFeedback.lg"
+}

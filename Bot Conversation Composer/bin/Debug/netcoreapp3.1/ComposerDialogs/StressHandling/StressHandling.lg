@@ -1,0 +1,19 @@
+[import](common.lg)
+
+# bfdprompt-237001()
+- What is the reason for your stress today
+
+# bfdunrecognizedPrompt-237001()
+- Sorry, I do not understand '${this.value}'.
+
+# bfdactivity-629970()
+- Bye, have a good day.
+
+# bfdprompt-554742()
+- Yes, ${user.stresstopic} could be a stressful reason. I have some tip for you to handle the stress. Would you like to know?
+
+
+
+
+
+

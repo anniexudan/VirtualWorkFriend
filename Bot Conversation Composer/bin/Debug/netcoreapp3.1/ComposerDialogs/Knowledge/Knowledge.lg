@@ -1,0 +1,18 @@
+[import](common.lg)
+
+# bfdprompt-829181()
+- What questions you have about ${user.stresstopic}
+
+# bfdprompt-721293()
+- Any more questions you have about ${user.stresstopic}
+
+# bfdactivity-405578()
+- Great, have a good day
+
+# bfdprompt-235587()
+- Any more questions you have about ${user.stresstopic}
+
+
+
+
+
