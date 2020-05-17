@@ -1,6 +1,6 @@
 # VirtualWorkFriend
 A Microsoft Azure based bot application helping people in workforce to reduce stress.
-[!BotImage](https://virtualworkfriend.azurewebsites.net)](https://virtualworkfriendbotz7sw.blob.core.windows.net/images/Bot.png)
+[![BotImage](https://virtualworkfriend.azurewebsites.net)](https://virtualworkfriendbotz7sw.blob.core.windows.net/images/Bot.png)
 
 # Prodict Background
 There are many benefits of talking to someone because you can:
