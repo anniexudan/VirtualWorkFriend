@@ -45,6 +45,6 @@ If user choose Journaling option, it will create an new OneNote page for user to
 ## 5. Escalation Process
 By triggering "Talk to a person" process, the bot will send the recommended list of professionals in the user's state and preferred distance. It will provide theorpists name, address, rating, etc. from Yelp.
 
-Resources used:
+# Resources used:
 Azure Virtual Assistant: https://microsoft.github.io/botframework-solutions/overview/virtual-assistant-solution/
 Bot Conversation Composer:https://docs.microsoft.com/en-us/composer/introduction
