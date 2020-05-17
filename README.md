@@ -1,5 +1,7 @@
 # VirtualWorkFriend
-##Prodict Background
+A Microsoft Azure based bot application helping people in workforce to reduce stress.
+
+#Prodict Background
 There are many benefits of talking to someone because you can:
 
 1. Sort through your feelings
@@ -26,7 +28,7 @@ Virtual Work Friend is the a AI based product which can:
 
 In this repository, you will find the architectual diagram, the bot conversation composer files for conversation flow design and the codebase of this solution. 
 
-##Feature Demos:
+#Feature Demos:
 1. Login 
 2. Onboarding Process
 3. Conversation flow
