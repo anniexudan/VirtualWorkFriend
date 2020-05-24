@@ -33,17 +33,32 @@ In this repository, you will find the architectual diagram, the bot conversation
 ### 1. Login 
 The login in process included the privacy and term of use consent. It uses OAUTH for user information. 
 
+![Bot Gif](/GIF/Login.gif)
+
 ### 2. Onboarding Process
 After log in it will trigger onboarding process if the use is first time login to the application. It will record user's preference on reading and music topics. User can later update their perferences as needed.
+
+![Bot Gif](/GIF/Onboarding.gif)
 
 ### 3. Conversation flow
 The daily conversation flow leveraged the stress scaling process. It has low, medium and high stress level status. And according to the stress level it will trigger different stress handling process including meditation, talk to the bot, entertainment tips for music, jokes or article reading, and back up with knowledge or chitchat.
 
+![Bot Gif](/GIF/DailyConversation.gif)
+
 ### 4. Journaling Capability
 If user choose Journaling option, it will create an new OneNote page for user to write down their thoughts. The application can do text analytics and send the overall sentiment and high level statistics back for user to have a high level understanding of their overall sentiment change over the time. 
 
+![Bot Gif](/GIF/Journaling.gif)
+
 ### 5. Escalation Process
 By triggering "Talk to a person" process, the bot will send the recommended list of professionals in the user's state and preferred distance. It will provide theorpists name, address, rating, etc. from Yelp.
+
+![Bot Gif](/GIF/Escalation.gif)
+
+### 6. Sentiment Analysis Dashboard
+User can go to their Power BI tenant and view their sentiment trend based on the sentiment summary on their journal
+
+![Bot Gif](/GIF/SentimentDashboard.gif)
 
 # Resources used:
 Azure Virtual Assistant: https://microsoft.github.io/botframework-solutions/overview/virtual-assistant-solution/
