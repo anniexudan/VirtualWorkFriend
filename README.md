@@ -1,5 +1,8 @@
 # VirtualWorkFriend
-##Prodict Background
+A Microsoft Azure based bot application helping people in workforce to reduce stress.
+[![BotImage](https://virtualworkfriendbotz7sw.blob.core.windows.net/images/Bot.png)](https://virtualworkfriend.azurewebsites.net)
+
+# Prodict Background
 There are many benefits of talking to someone because you can:
 
 1. Sort through your feelings
@@ -26,14 +29,22 @@ Virtual Work Friend is the a AI based product which can:
 
 In this repository, you will find the architectual diagram, the bot conversation composer files for conversation flow design and the codebase of this solution. 
 
-##Feature Demos:
-1. Login 
-2. Onboarding Process
-3. Conversation flow
-4. Journaling Capability;
-4. Escalation Process
+# Feature Demos:
+### 1. Login 
+The login in process included the privacy and term of use consent. It uses OAUTH for user information. 
 
+### 2. Onboarding Process
+After log in it will trigger onboarding process if the use is first time login to the application. It will record user's preference on reading and music topics. User can later update their perferences as needed.
 
-Resources used:
+### 3. Conversation flow
+The daily conversation flow leveraged the stress scaling process. It has low, medium and high stress level status. And according to the stress level it will trigger different stress handling process including meditation, talk to the bot, entertainment tips for music, jokes or article reading, and back up with knowledge or chitchat.
+
+### 4. Journaling Capability
+If user choose Journaling option, it will create an new OneNote page for user to write down their thoughts. The application can do text analytics and send the overall sentiment and high level statistics back for user to have a high level understanding of their overall sentiment change over the time. 
+
+### 5. Escalation Process
+By triggering "Talk to a person" process, the bot will send the recommended list of professionals in the user's state and preferred distance. It will provide theorpists name, address, rating, etc. from Yelp.
+
+# Resources used:
 Azure Virtual Assistant: https://microsoft.github.io/botframework-solutions/overview/virtual-assistant-solution/
 Bot Conversation Composer:https://docs.microsoft.com/en-us/composer/introduction
