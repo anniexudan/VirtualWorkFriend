@@ -2,7 +2,7 @@
 A Microsoft Azure based bot application helping people in workforce to reduce stress.
 [![BotImage](https://virtualworkfriendbotz7sw.blob.core.windows.net/images/Bot.png)](https://virtualworkfriend.azurewebsites.net)
 
-# Prodict Background
+# Project Background
 There are many benefits of talking to someone because you can:
 
 1. Sort through your feelings
@@ -18,7 +18,7 @@ In modern work life, however, you may work remotely or work at office needing to
 Virtual Work Friend is the a AI based product which can:
 
 1. Build conversation with you like your work friend and even better it is a friend who is outside of your situation so that you don't have to worry about it being judgmental.
-
+    
 2. Construct conversation through IM, voice, and VR talking image.
 
 3. Access your stress level and according it provide suitable customized stress handling methods.
