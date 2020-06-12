@@ -1,0 +1,1768 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 17,
+      "answer": "![Virtual Assistant](https://aka.ms/virtualassistantlogo)\nI'm a Virtual Assistant with the ability to be customized to a customer's brand and made available across a broad range of devices.\nI can help you be more productive, find points of interest, and answer questions.\nLearn more by visiting [here](https://aka.ms/virtualassistant).",
+      "source": "custom editorial",
+      "questions": [
+        "What is a Virtual Assistant"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 18,
+      "answer": "Bot Framework Skills are capabilities that can be integrated with a Virtual Assistant.\nLearn more by visiting [here](https://aka.ms/virtualassistant).",
+      "source": "custom editorial",
+      "questions": [
+        "What is a Skill"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 19,
+      "answer": "The Calendar Skill assists with managing the events on your calendar.\nTry saying thigs like \"do I have any appointments today\", \"how long until my next meeting\", or \"put anniversary on my calendar.\"",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Calendar Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 20,
+      "answer": "The Email Skill assists with reading and sending your messages to contacts.\nTry saying things like \"do I have any new mail\", \"add a flag to this email\", or \"respond to my last email.\"",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Email Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 21,
+      "answer": "The Point of Interest Skill finds nearby points of interest and assists with navigation.\nYou can say things like \"what's nearby\", \"I need directions to a cafe\", or \"where can I get coffee?\"",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Point of Interest Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 22,
+      "answer": "## Overview\nThe ToDo Skill provides task related capabilities for managing to-do lists.\nYou can say things like \"what tasks do I have\", \"add some items to my shopping list\", or \"check off bananas on my grocery list.\"",
+      "source": "custom editorial",
+      "questions": [
+        "What can the ToDo Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 23,
+      "answer": "The Virtual Assistant is available as a template, allowing users to easily spin up and deploy their own personalized Assistant.\nSkills are now run as independent applications that a Virtual Assistant can integrate with remotely.\nNew Virtual Assistants are ready to support both Microsoft Teams and speech-related scenarios.",
+      "source": "custom editorial",
+      "questions": [
+        "What's New"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 24,
+      "answer": "Raise an issue on the [GitHub repo](https://aka.ms/virtualassistant)",
+      "source": "custom editorial",
+      "questions": [
+        "How do I raise a bug"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 25,
+      "answer": "I hope you can get some rest soon.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "It's been a long day and I'm tired",
+        "It's time for bed",
+        "So sweepy",
+        "So tired",
+        "This day has made me exhausted",
+        "This day has made me so tired",
+        "I'm going to get some shut eye",
+        "Time for a good nights sleep",
+        "I'm tuckered out",
+        "Time for me to take a nap",
+        "Time to fall asleep",
+        "Time to get some shut eye",
+        "Time to take a nap",
+        "Today's got me beat",
+        "Today's got me exhausted",
+        "Today's got me tired",
+        "Today's got me tuckered out",
+        "Today's got me wiped out",
+        "Work really wiped me out today",
+        "Work really wore me out today",
+        "Work was exhausting",
+        "This day has me drained",
+        "I'm so tired",
+        "I'm going to lay down",
+        "I'm going to lie down",
+        "I'm going to take a nap",
+        "I'm gonna pass out",
+        "I'm half asleep",
+        "I'm jet-lagged",
+        "I'm knackered",
+        "I'm overtired",
+        "I'm pooped",
+        "I'm ready for bed",
+        "I'm sapped",
+        "I'm sleepy",
+        "I'm worn out",
+        "I'm so sweepy",
+        "I'm wiped out",
+        "I'm so tired but I can't sleep",
+        "I'm spent",
+        "I'm sweepy",
+        "I'm tired",
+        "I'm tired af",
+        "I'm tired as a dog",
+        "I'm tired from practice",
+        "I'm tired from school",
+        "I'm tired from work",
+        "I'm totally drained",
+        "I'm totally exhausted",
+        "Zzzzz",
+        "I'm so sleepy"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 26,
+      "answer": "[EspaΓö£ΓûÆol](https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety-sp.html)[      ](#collapse_155055e795c0a312b4)\n\nRelated Pages\n\nNeed Help? Know Someone Who Does?\n\nContact the [Disaster Distress Helplineexternal icon](https://www.samhsa.gov/disaster-preparedness)\nCall 1-800-985-5990\n\nContact the [National Domestic Violence Hotlineexternal icon](http://www.thehotline.org/)\n\nCall 1-800-799-7233 and TTY 1-800-787-3224\n\nOn This Page\n[Reducing stress in yourself and others](#reducing-stress)[Information for parents](#parents)[Information for responders](#responders)[Information for people released from quarantine](#quarantine)",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Manage Anxiety & Stress"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 27,
+      "answer": "The outbreak of coronavirus disease 2019 (COVID-19) may be stressful for people. Fear and anxiety about a disease can be overwhelming and cause strong emotions in adults and children. Coping with stress will make you, the people you care about, and your community stronger.\n\n**Everyone reacts differently to stressful situations. **\n\nΓö¼├íHow you respond to the outbreak can depend on your background, the things that make you different from other people, and Γö¼├íthe community you live in.\n\nPeople who may respond more strongly to the stress of a crisis include\nOlder people and people with chronic diseases who are at higher risk for COVID-19Children and teensPeople who are helping with the response to COVID-19, like doctors and other health care providers, or first respondersPeople who have mental health conditions including problems with substance use\n\n**If you, or someone you care about, are feeling overwhelmed with emotions like sadness, depression, or anxiety, or feel like you want to harm yourself or others call**\n911Substance Abuse and Mental Health Services Administration╬ô├ç├ûs (SAMHSA╬ô├ç├ûs) Disaster Distress Helpline: 1-800-985-5990 or text TalkWithUs to 66746. (TTY 1-800-846-8517)\n\n**Stress during an infectious disease outbreak can include**\nFear and worry about your own health and the health of your loved onesChanges in sleep or eating patternsDifficulty sleeping or concentratingWorsening of chronic health problemsIncreased use of alcohol, tobacco, or other drugs\n\n**People with preexisting mental health conditions should continue with their treatment and be aware of new or worsening symptoms. Additional information can be found at the Substance Abuse and Mental Health Services Administration ([SAMHSAexternal icon](https://www.samhsa.gov/disaster-preparedness)) website.**\n\nTaking care of yourself, your friends, and your family can help you cope with stress. Helping others cope with their stress can also make your community stronger.\n\n**Things you can do to support yourself**\nTake breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting.Take care of your body. Take deep breaths, stretch, or [meditateexternal icon](https://nccih.nih.gov/health/meditation/overview.htm). [Try to eat healthy, well-balanced meals](https://www.cdc.gov/nccdphp/dnpao/features/national-nutrition-month/index.html), [exercise regularly](https://www.cdc.gov/physicalactivity/basics/index.htm), [get plenty of sleep](https://www.cdc.gov/sleep/about_sleep/sleep_hygiene.html), and [avoid alcohol](https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm) and [drugsexternal icon](https://www.drugabuse.gov/related-topics/health-consequences-drug-misuse).Make time to unwind. Try to do some other activities you enjoy.Connect with others. Talk with people you trust about your concerns and how you are feeling.\n\n**Call your healthcare provider if stress gets in the way of your daily activities for several days in a row.**",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Stress and Coping",
+        "Stressed about COVID-19",
+        "I am upset about covid-19",
+        "I am stressed about covid-19"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 28,
+      "answer": "[Sharing the facts](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/share-facts.html) about COVID-19 and understanding the actual risk to yourself and people you care about can make an outbreak less stressful..\n\nWhen you share accurate information about COVID-19 you can help make people feel less stressed and allow you to connect with them.\n\nLearn more about [taking care of your emotional health](https://emergency.cdc.gov/coping/selfcare.asp).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Reduce stress in yourself and others"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 29,
+      "answer": "Children and teens react, in part, on what they see from the adults around them. When parents and caregivers deal with the COVID-19 calmly and confidently, they can provide the best support for their children. Parents can be more reassuring to others around them, especially children, if they are better prepared.\n\n**Not all children and teens respond to stress in the same way. Some common changes to watch for include **\nExcessive crying or irritation in younger childrenReturning to behaviors they have outgrown (for example, toileting accidents or bedwetting)Excessive worry or sadnessUnhealthy eating or sleeping habitsIrritability and ╬ô├ç┬úacting out╬ô├ç┬Ñ behaviors in teensPoor school performance or avoiding schoolDifficulty with attention and concentrationAvoidance of activities enjoyed in the pastUnexplained headaches or body painUse of alcohol, tobacco, or other drugs\n\n**There are many things you can do to support your child **\nTake time to talk with your child or teen about the COVID-19 outbreak. Answer questions and [share facts](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/share-facts.html)Γö¼├íabout COVID-19 in a way that your child or teen can understand.Reassure your child or teen that they are safe. Let them know it is ok if they feel upset. Share with them how you deal with your own stress so that they can learn how to cope from you.Limit your family╬ô├ç├ûs exposure to news coverage of the event, including social media. Children may misinterpret what they hear and can be frightened about something they do not understand.Try to keep up with regular routines. If schools are closed, create a schedule for learning activities and relaxing or fun activities.Be a role model. Γö¼├íTake breaks, get plenty of sleep, exercise, and eat well. Connect with your friends and family members.\n\nLearn more about [helping children cope](https://www.cdc.gov/childrenindisasters/helping-children-cope.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "For parents - Stress and Coping"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 30,
+      "answer": "Responding to COVID-19 can take an emotional toll on you. There are things you can do to reduce secondary traumatic stress (STS) reactions:\nAcknowledge that STS can impact anyone helping families after a traumatic event.Learn the symptoms including physical (fatigue, illness) and mental (fear, withdrawal, guilt).Allow time for you and your family to recover from responding to the pandemic.Create a menu of personal self-care activities that you enjoy, such as spending time with friends and family, exercising, or reading a book.Take a break from media coverage of COVID-19.Ask for help if you feel overwhelmed or concerned that COVID-19 is affecting your ability to care for your family and patients as you did before the outbreak.\n\nLearn more [tips for taking care of yourself](https://emergency.cdc.gov/coping/responders.asp)Γö¼├íduring emergency response.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "For responders - Stress and Coping"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 31,
+      "answer": "Being separated from others if a healthcare provider thinks you may have been exposed to COVID-19 can be stressful, even if you do not get sick. Everyone feels differently after coming out of quarantine. Some feelings include :\nMixed emotions, including relief after quarantineFear and worry about your own health and the health of your loved onesStress from the experience of monitoring yourself or being monitored by others for signs and symptoms of COVID-19Sadness, anger, or frustration because friends or loved ones have unfounded fears of contracting the disease from contact with you, even though you have been determined not to be contagiousGuilt about not being able to perform normal work or parenting duties during quarantineOther emotional or mental health changes\n\nChildren may also feel upset or have other strong emotions if they, or someone they know, has been released from quarantine. [You can help your child cope](#parents).\n\nResources\n\n##### For Everyone\n\n[Coping with a Disaster or Traumatic Event](https://emergency.cdc.gov/coping/index.asp)\n\n##### For Communities\n\nCoping with stress during an infectious disease outbreakTaking Care of Your Behavioral Health during an Infectious Disease Outbreak\n\n##### For Families and Children\n\n[Helping Children Cope with Emergencies](https://www.cdc.gov/childrenindisasters/helping-children-cope.html)[Coping After a Disasterpdf icon](https://www.cdc.gov/cpr/readywrigley/documents/RW_Coping_After_a_Disaster_508.pdf) ╬ô├ç├┤ A Ready Wrigley activity book for children age 3-10\n\n##### For First Responders\n\n[Emergency Responders: Tips for taking care of yourself](https://emergency.cdc.gov/coping/responders.asp)[Disaster Technical Assistance Centerexternal icon](https://www.samhsa.gov/dtac/disaster-responders) Γö¼├í(SAMHSA)[Top of Page](#)",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "For people who have been released from quarantine"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 32,
+      "answer": "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the [coronaviruses that commonly circulate among humans](https://www.cdc.gov/coronavirus/types.html)Γö¼├íand cause mild illness, like the common cold.\n\nA diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is a novel coronavirus?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 33,
+      "answer": "On February 11, 2020 the World Health Organization [announced](https://twitter.com/DrTedros/status/1227297754499764230) an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ╬ô├ç├┐CO╬ô├ç├û stands for ╬ô├ç├┐corona,╬ô├ç├û ╬ô├ç├┐VI╬ô├ç├û for ╬ô├ç├┐virus,╬ô├ç├û and ╬ô├ç├┐D╬ô├ç├û for disease. Formerly, this disease was referred to as ╬ô├ç┬ú2019 novel coronavirus╬ô├ç┬Ñ or ╬ô├ç┬ú2019-nCoV╬ô├ç┬Ñ.\n\nThere are [many types](https://www.cdc.gov/coronavirus/2019-ncov/index.html)Γö¼├íof human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) [best practiceexternal icon](https://www.who.int/topics/infectious_diseases/naming-new-diseases/en/) for naming of new human infectious diseases.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Why is the disease being called coronavirus disease 2019, COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 34,
+      "answer": "People in the U.S. may be worried or anxious about friends and relatives who are living in or visiting areas where COVID-19 is spreading. Some people are worried about the disease. Fear and anxiety can lead to social stigma, for example, towards Chinese or other Asian Americans or people who were in quarantine.\n\nStigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads, a need to blame someone, fears about disease and death, and gossip that spreads rumors and myths.\n\nStigma hurts everyone by creating more fear or anger towards ordinary people instead of the disease that is causing the problem.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Why might someone blame or avoid individuals and groups (create stigma) because of COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 35,
+      "answer": "People can fight stigma and help, not hurt, others by providing social support. Counter stigma by learning and sharing facts. Communicating the facts that viruses do not target specific racial or ethnic groups and how COVID-19 actually spreads can help stop stigma.\n\n## []( \"Higher Risk\")Higher Risk",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can people help stop stigma related to COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 36,
+      "answer": "Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people. More information about the source and spread of COVID-19 is available on the [Situation Summary: Source and Spread of the Virus](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is the source of the virus?",
+        "what is coronavirus"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 37,
+      "answer": "This virus was first detected in Wuhan City, Hubei Province, China. The first infections were linked to a live animal market, but the virus is now spreading from person-to-person. It╬ô├ç├ûs important to note that person-to-person spread can happen on a continuum. Some viruses are highly contagious (like measles), while other viruses are less so.\n\nThe virus that causes COVID-19 seems to be spreading easily and sustainably in the community (╬ô├ç┬úcommunity spread╬ô├ç┬Ñ) in [some affected geographic areas](https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html). Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.\n\nLearn what is known about the [spread of newly emerged coronaviruses](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How does the virus spread?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 38,
+      "answer": "The virus that causes COVID-19 is [spreading from person-to-person](https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html). Someone who is actively sick with COVID-19 can spread the illness to others. That is why CDC recommends that these patients be isolated either in the hospital or at home (depending on how sick they are) until they are better and no longer pose a risk of infecting others.\n\nHow long someone is actively sick can vary so the decision on when to release someone from isolation is made on a case-by-case basis in consultation with doctors, infection prevention and control experts, and public health officials and involves considering specifics of each situation including disease severity, illness signs and symptoms, and results of laboratory testing for that patient.\n\nCurrent [CDC guidance for when it is OK to release someone from isolation](https://www.cdc.gov/coronavirus/2019-ncov/hcp/disposition-hospitalized-patients.html)Γö¼├íis made on a case by case basis and includes meeting all of the following requirements:\n\n*   The patient is free from fever without the use of fever-reducing medications.\n\n*   The patient is no longer showing symptoms, including cough.\n\n*   The patient has tested negative on at least two consecutive respiratory specimens collected at least 24 hours apart.\n\nSomeone who has been released from isolation is not considered to pose a risk of infection to others.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can someone who has had COVID-19 spread the illness to others?",
+        "who can spread it",
+        "how does coronavirus spread",
+        "can someone who has virus spread it"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 39,
+      "answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can someone who has been quarantined for COVID-19 spread the illness to others?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 40,
+      "answer": "Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom.\n\nIt may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads.\n\nIn general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.\n\nLearn what is known about the [spread of COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 41,
+      "answer": "It is not yet known whether weather and temperature impact the spread of COVID-19. Some other viruses, like the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months.Γö¼├í At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer. Γö¼├íThere is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Will warm weather stop the outbreak of COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 42,
+      "answer": "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is community spread?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 43,
+      "answer": "Generally coronaviruses survive for shorter periods of time at higher temperatures and higher humidity than in cooler or dryer environments. However, we don╬ô├ç├ût have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. The necessary temperature would also be based on the materials of the surface, the environment, etc. Regardless of temperature please follow [CDC╬ô├ç├ûs guidance for cleaning and disinfection](https://www.cdc.gov/coronavirus/2019-ncov/prepare/protect-home.html).\n\n## []( \"How to Protect Yourself\")How to Protect Yourself",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What temperature kills the virus that causes COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 44,
+      "answer": "This is a rapidly evolving situation and the [risk assessment](/coronavirus/2019-ncov/cases-updates/summary.html#risk-assessment)Γö¼├ímay change daily. The latest updates are available on CDC╬ô├ç├ûs Coronavirus Disease 2019 (COVID-19) website.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Am I at risk for COVID-19 in the United States?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 45,
+      "answer": "Yes. There have been cases of COVID-19 in the U.S. related to travel and through close contact. U.S. case counts are updated regularly Mondays through Fridays. See the [current U.S. case count of COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Has anyone in the United States gotten infected?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 46,
+      "answer": "Visit the [COVID-19 Prevention and Treatment](https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html)Γö¼├ípage to learn about how to protect yourself from respiratory illnesses, like COVID-19.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can I help protect myself?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 47,
+      "answer": "There is information for [people who have had close contact](https://www.cdc.gov/coronavirus/2019-ncov/hcp/guidance-prevent-spread.html)Γö¼├íwith a person confirmed to have, or being evaluated for, COVID-19 available online.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should I do if I had close contact with someone who has COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 48,
+      "answer": "**COVID-19 is a new disease and there is limited information regarding risk factors for severe disease. Based on currently available information and clinical expertise, older adults and people of any age who have serious underlying medical conditions might be at higher risk for severe illness from COVID-19. **\n\n**Based upon available information to date, those at high-risk for severe illness from COVID-19 include: **\n\n*   People aged 65 years and older\n\n*   People who live in a nursing home or long-term care facility\n\n*   Other high-risk conditions could include:\n\n    *   People with chronic lung disease or moderate to severe asthma\n\n    *   People who have heart disease with complications\n\n    *   People who are immunocompromised including cancer treatment\n\n    *   People of any age with severe obesity (body mass index [(BM]I)╬ô├½├æ40) or certain underlying medical conditions, particularly if not well controlled, such as those with diabetes, renal failure, or liver disease might also be at risk\n\n*   People who are pregnant should be monitored since they are known to be at risk with severe viral illness, however, to date data on COVID-19 has not shown increased risk\n\n## []( \"Underlying Conditions\")Underlying Conditions",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Who is at higher risk for serious illness from COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 49,
+      "answer": "If you are at higher risk of getting very sick from COVID-19, you should: stock up on supplies; take everyday precautions to keep space between yourself and others; when you go out in public, keep away from others who are sick; limit close contact and wash your hands often; and avoid crowds, cruise travel, and non-essential travel.Γö¼├íIf there is an outbreak in your community, stay home as much as possible. Watch for symptoms and emergency signs. If you get sick, stay home and call your doctor. More information on how to prepare, what to do if you get sick, and how communities and caregivers can support those at higher risk is available on [People at Risk for Serious Illness from COVID-19. ](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should people at higher risk of serious illness with COVID-19 do?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 50,
+      "answer": "CDC does not recommend that people who are well wear a facemask to protect themselves from respiratory illnesses, including COVID-19. You should only wear a mask if a healthcare professional recommends it. A facemask should be used by people who have COVID-19 and are showing symptoms. This is to protect others from the risk of getting infected. The use of facemasks also is crucial for [health workers](https://www.cdc.gov/coronavirus/2019-ncov/infection-control/control-recommendations.html)Γö¼├íand other [people who are taking care of someone infected with COVID-19 in close settings](https://www.cdc.gov/coronavirus/2019-ncov/hcp/guidance-home-care.html)Γö¼├í(at home or in a health care facility).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Does CDC recommend the use of facemask to prevent COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 51,
+      "answer": "There is still a lot that is unknown about the newly emerged COVID-19 and how it spreads. Two other coronaviruses have emerged previously to cause severe illness in people (MERS-CoV and SARS-CoV). The virus that causes COVID-19 is more genetically related to SARS-CoV than MERS-CoV, but both are betacoronaviruses with their origins in bats. While we don╬ô├ç├ût know for sure that this virus will behave the same way as SARS-CoV and MERS-CoV, we can use the information gained from both of these earlier coronaviruses to guide us. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from products or packaging that are shipped over a period of days or weeks at ambient temperatures. Coronaviruses are generally thought to be spread most often by respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with imported goods and there have not been any cases of COVID-19 in the United States associated with imported goods. Information will be provided on the [Coronavirus Disease 2019 (COVID-19) website](https://www.cdc.gov/coronavirus/2019-nCoV/index.html)Γö¼├ías it becomes available.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Am I at risk for COVID-19 from a package or products shipping from China?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 52,
+      "answer": "[]()In healthcare settings all across the United States, donated blood is a lifesaving, essential part of caring for patients. The need for donated blood is constant, and blood centers are open and in urgent need of donations. CDC encourages people who are well to continue to donate blood if they are able, even if they are practicing social distancing because of COVID-19. CDC is supporting blood centers by providing recommendations that will keep donors and staff safe. Examples of these recommendations include spacing donor chairs 6 feet apart, thoroughly adhering to environmental cleaning practices, and encouraging donors to make donation appointments ahead of time.\n\n## []( \" COVID-19 and Children\")COVID-19 and Children",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Is it okay for me to donate blood?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 53,
+      "answer": "Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date. You can learn more about who is most at risk for health problems if they have COVID-19 infection on CDC╬ô├ç├ûs current [Risk Assessment](/coronavirus/2019-ncov/summary.html#risk-assessment)Γö¼├ípage.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is the risk of my child becoming sick with COVID-19?",
+        "are kids at risk?",
+        "are children at risk?",
+        "What is the risk of my child becoming sick with the coronavirus disease?",
+        "are kids at risk"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 54,
+      "answer": "You can encourage your child to help stop the spread of COVID-19 by teaching them to do the same things everyone should do to stay healthy.\n\n*   Clean hands often using soap and water or alcohol-based hand sanitizer\n\n*   Avoid people who are sick (coughing and sneezing)\n\n*   Clean and disinfect high-touch surfaces daily in household common areas (e.g. tables, hard-backed chairs, doorknobs, light switches, remotes, handles, desks, toilets, sinks)\n\n*   Launder items including washable plush toys as appropriate in accordance with the manufacturer╬ô├ç├ûs instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely. Dirty laundry from an ill person can be washed with other people╬ô├ç├ûs items.\n\nYou can find additional information on preventing COVID-19 at [Prevention for 2019 Novel Coronavirus](https://www.cdc.gov/coronavirus/about/prevention.html) and at [Preventing COVID-19 Spread in Communities](https://www.cdc.gov/coronavirus/2019-ncov/community/index.html). Additional information on how COVID-19 is spread is available at [How COVID-19 Spreads](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can I protect my child from COVID-19 infection?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 55,
+      "answer": "No. The symptoms of COVID-19 are similar in children and adults. However, children with confirmed COVID-19 have generally presented with mild symptoms. Reported symptoms in children include cold-like symptoms, such as fever, runny nose, and cough. Vomiting and diarrhea have also been reported. It╬ô├ç├ûs not known yet whether some children may be at higher risk for severe illness, for example, children with underlying medical conditions and special healthcare needs. There is much more to be learned about how the disease impacts children.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Are the symptoms of COVID-19 different in children than in adults?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 56,
+      "answer": "No. If your child is healthy, there is no need for them to wear a facemask. Only people who have symptoms of illness or who are providing care to those who are ill should wear masks.\n\n## []( \"Preparing Your Home for COVID-19\")Preparing Your Home for COVID-19",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should children wear masks?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 57,
+      "answer": "Create a household plan of action to help protect your health and the health of those you care about in the event of an outbreak of COVID-19 in your community:\n\n*   Talk with the people who need to be included in your plan, and discuss [what to do if a COVID-19 outbreak occurs in your community](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html).\n\n*   Plan ways to care for those who might be at greater risk for serious complications, particularly [older adults and those with severe chronic medical](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)Γö¼├íconditions like heart, lung or kidney disease.\n\n    *   Make sure they have access to several weeks of medications and supplies in case you need to stay home for prolonged periods of time.\n\n*   Get to know your neighbors and find out if your neighborhood has a website or social media page to stay connected.\n\n*   Create a list of local organizations that you and your household can contact in the event you need access to information, healthcare services, support, and resources.\n\n*   Create an emergency contact list of family, friends, neighbors, carpool drivers, health care providers, teachers, employers, the local public health department, and other community resources.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can my family and I prepare for COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 58,
+      "answer": "Practice everyday preventive actions to help reduce your risk of getting sick and remind everyone in your home to do the same. These actions are especially important for older adults and people who have severe chronic medical conditions:\n\n*   Avoid close contact with people who are sick.\n\n*   Stay home when you are sick, except to get medical care.\n\n*   Cover your coughs and sneezes with a tissue and throw the tissue in the trash.\n\n*   Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food.\n\n*   If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty.\n\n*   Clean and disinfect frequently touched surfaces and objects\n\n(e.g., tables, countertops, light switches, doorknobs, and cabinet handles).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What steps can my family take to reduce our risk of getting COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 59,
+      "answer": "Most people who get COVID-19 will be able to recover at home. [CDC has directions](https://www.cdc.gov/coronavirus/2019-ncov/hcp/guidance-prevent-spread.html) for people who are recovering at home and their caregivers, including:\n\n*   Stay home when you are sick, except to get medical care.\n\nIf you develop **emergency warning signs** for COVID-19 get **medical attention immediately**. Emergency warning signs include*:\n\n*   Trouble breathing\n\n*   Persistent pain or pressure in the chest\n\n*   New confusion or inability to arouse\n\n*   Bluish lips or face\n\n*This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning.\n\n*   Use a separate room and bathroom for sick household members (if possible).\n\n*   Clean hands regularly by handwashing with soap and water or using an alcohol-based hand sanitizer with at least 60% alcohol.\n\n*   Provide your sick household member with clean disposable facemasks to wear at home, if available, to help prevent spreading COVID-19 to others.\n\n*   [Clean the sick room and bathroom](https://www.cdc.gov/coronavirus/2019-ncov/community/home/cleaning-disinfection.html), as needed, to avoid unnecessary contact with the sick person.\n\n*   Avoid sharing personal items like utensils, food, and drinks.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should I do if someone in my house gets sick with COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 60,
+      "answer": "Talk to the [school or facility](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/guidance-for-schools.html) about their emergency operations plan. Understand the plan for continuing education and social services (such as student meal programs) during school dismissals. If your child attends a [college or university](https://www.cdc.gov/coronavirus/2019-ncov/community/colleges-universities.html), encourage them to learn about the school╬ô├ç├ûs plan for a COVID-19 outbreak.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can I prepare in case my child╬ô├ç├ûs school, childcare facility, or university is dismissed?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 61,
+      "answer": "Plan for potential changes at your workplace. Talk to your employer about their emergency operations plan, including sick-leave policies and telework options. [Learn how businesses and employers can plan for and respond to COVID-19.](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/guidance-business-response.html)",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How can I prepare for COVID-19 at work?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 62,
+      "answer": "Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I use soap and water or a hand sanitizer to protect against COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 63,
+      "answer": "Clean and disinfect frequently touched surfaces such as tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.Γö¼├í If surfaces are dirty, clean them using detergent or soap and water prior to disinfection. To disinfect, most common EPA-registered household disinfectants will work. See CDC╬ô├ç├ûs recommendations [for household cleaning and disinfection](https://www.cdc.gov/coronavirus/2019-ncov/community/home/cleaning-disinfection.html).\n\n## []( \"In Case of an Outbreak in Your Community\")In Case of an Outbreak in Your Community",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What cleaning products should I use to protect against COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 64,
+      "answer": "During an outbreak, stay calm and put your preparedness plan to work. Follow the steps below:\n\n**[Protect yourself and others](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention-treatment.html).**\n\n*   Stay home if you are sick. Keep away from people who are sick. Limit close contact with others as much as possible (about 6 feet).\n\n**Put your household plan into action. **\n\n*   **Stay informed about the local COVID-19 situation**. Be aware of temporary school dismissals in your area, as this may affect your household╬ô├ç├ûs daily routine.\n\n*   **Continue practicing everyday preventive actions. **Cover coughs and sneezes with a tissue and wash your hands often with soap and water for at least 20 seconds. If soap and water are not available, use a hand sanitizer that contains 60% alcohol. Clean frequently touched surfaces and objects daily using a regular household detergent and water.\n\n*   **Notify your workplace as soon as possible if your regular work schedule changes.** Ask to work from home or take leave if you or someone in your household gets sick with [COVID-19 symptoms](https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html), or if your child╬ô├ç├ûs school is dismissed temporarily. [Learn how businesses and employers can plan for and respond to COVID-19.](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/guidance-business-response.html)\n\n*   **Stay in touch with others by phone or email. **If you have a chronic medical condition and live alone, ask family, friends, and health care providers to check on you during an outbreak. Stay in touch with family and friends, especially those at increased risk of developing severe illness, such as older adults and people with severe chronic medical conditions.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should I do if there is an outbreak in my community?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 65,
+      "answer": "Outbreaks can be stressful for adults and children. Talk with your children about the outbreak, try to stay calm, and reassure them that they are safe. If appropriate, explain to them that most illness from COVID-19 seems to be mild. [Children respond differently to stressful situations than adults](https://www.cdc.gov/childrenindisasters/helping-children-cope.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How do I prepare my children in case of COVID-19 outbreak in our community?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 66,
+      "answer": "This is a new virus and we are still learning about it, but so far, there does not seem to be a lot of illness in children. Most illness, including serious illness, is happening in adults of working age and older adults. If there cases of COVID-19 that impact your child╬ô├ç├ûs school, the school may dismiss students. Keep track of school dismissals in your community. Read or watch local media sources that report school dismissals. If schools are dismissed temporarily, use alternative childcare arrangements, if needed.\n\nIf your child/children become sick with COVID-19, notify their childcare facility or school. Talk with teachers about classroom assignments and activities they can do from home to keep up with their schoolwork.\n\nDiscourage children and teens from gathering in other public places while school is dismissed to help slow the spread of COVID-19 in the community.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What steps should parents take to protect children during a community outbreak?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 67,
+      "answer": "Depending on the situation, public health officials may recommend community actions to reduce exposures to COVID-19, such as school dismissals. Read or watch local media sources that report school dismissals or and watch for communication from your child╬ô├ç├ûs school. If schools are dismissed temporarily, discourage students and staff from gathering or socializing anywhere, like at a friend╬ô├ç├ûs house, a favorite restaurant, or the local shopping mall.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Will schools be dismissed if there is an outbreak in my community?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 68,
+      "answer": "Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with [COVID-19 symptoms](https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html), or if your child╬ô├ç├ûs school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak.\n\n## []( \"Symptoms & Testing\")Symptoms & Testing",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I go to work if there is an outbreak in my community?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 69,
+      "answer": "Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever[1](https://www.cdc.gov/coronavirus/2019-ncov/faq.html#footnote1), cough, and difficulty breathing. Read about [COVID-19 Symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What are the symptoms and complications that COVID-19 can cause?",
+        "symptoms of coronavirus disease 19",
+        "what are symptoms of covid-19"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 70,
+      "answer": "Not everyone needs to be tested for COVID-19. For information about testing, see [Testing for COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I be tested for COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 71,
+      "answer": "The process and locations for testing vary from place to place. Contact your state, local, tribal, or territorial department for more information, or reach out to a medical provider. State and local public health departments have received tests from CDC while medical providers are getting tests developed by commercial manufacturers. While supplies of these tests are increasing, it may still be difficult to find someplace to get tested. See [Testing for COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html)Γö¼├ífor more information.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Where can I get tested for COVID-19?",
+        "testing for covid-19",
+        "how do I get tested for covid-19"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 72,
+      "answer": "Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person╬ô├ç├ûs sample. In the early stages of infection, it is possible the virus will not be detected.\n\nFor COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can a person test negative and later test positive for COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 73,
+      "answer": "This list is based on:\n\n*   What we are learning from the outbreak in other countries and in the United States.\n\n*   What we know about risk from other respiratory infections, like flu.\n\nAs CDC gets more information about COVID-19 cases here in the US, we will update this list as needed.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "How were the underlying conditions selected?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 74,
+      "answer": "Based on available information, adults aged 65 years and older and people of any age with underlying medical conditions included on this list are at higher risk for severe illness and poorer outcomes from COVID-19.Γö¼├íCDC is collecting and analyzing data regularly and will update the list when we learn more. People with underlying medical conditions not on the list might also be at higher risk and should consult with their healthcare provider if they are concerned.\n\nWe encourage all people, regardless of risk, to:\n\n*   Take [steps](https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html?) to protect yourself and others.\n\n*   **Call **your healthcare provider if you are [sick](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html) with a fever, cough, or shortness of breath.\n\n*   Follow CDC [travel](https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html) guidelines and the recommendations of your state and local health officials.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What about underlying medical conditions that are not included on this list?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 75,
+      "answer": "Generally, well-controlled means that your condition is stable, not life-threatening, and laboratory assessments and other findings are as similar as possible to those without the health condition. You should talk with your healthcare provider if you have a question about your health or how your health condition is being managed.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What does well controlled mean?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 76,
+      "answer": "Severity typically means how much impact the illness or condition has on your body╬ô├ç├ûs function.Γö¼├í You should talk with your healthcare provider if you have a question about your health or how your health condition is being managed.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What does more severe illness mean?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 77,
+      "answer": "Most people with disabilities are not inherently at higher risk for becoming infected with or having severe illness from COVID-19.Γö¼├í Some people with physical limitations or other disabilities might be at a higher risk of infection because of their underlying medical condition.\n\nΓö¼├í\n\nPeople with certain disabilities might experience higher rates of chronic health conditions that put them at higher risk of serious illness and poorer outcomes from COVID-19.\n\n*   Adults with disabilities are three times more likely to have heart disease, stroke, diabetes, or cancer than adults without disabilities.\n\nYou should talk with your healthcare provider if you have a question about your health or how your health condition is being managed.\n\n## []( \"Healthcare Professionals and Health Departments\")Healthcare Professionals and Health Departments",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Are people with disabilities at higher risk?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 78,
+      "answer": "For recommendations and guidance on persons under investigation; infection control, including personal protective equipment guidance; home care and isolation; and case investigation, see [Information for Healthcare Professionals](https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html). For information on specimen collection and shipment, see [Information for Laboratories.](https://www.cdc.gov/coronavirus/2019-nCoV/lab/index.html) For information for public health professional on COVID-19, see [Information for Public Health Professionals](https://www.cdc.gov/coronavirus/2019-ncov/php/index.html).\n\n**See also:** [FAQs for Healthcare Professionals](https://www.cdc.gov/coronavirus/2019-ncov/hcp/faq.html)\n\n## []( \"COVID-19 and Funerals\")COVID-19 and Funerals",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should healthcare professionals and health departments do?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 79,
+      "answer": "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 80,
+      "answer": "COVID-19 is a new disease andΓö¼├í**we are still learning how it spreads.** The virus that causes COVID-19 is thought to mainly spread from close contact (i.e., within about 6 feet) with a person who is currently sick with COVID-19. The virus likely spreads primarily through respiratory droplets produced when an infected person coughs or sneezes, similar to how influenza and other respiratory infections spread. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.Γö¼├íThis type of spread is not a concern after death.\n\nIt may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads.\n\nPeople should consider not touching the body of someone who has died of COVID-19. Older people and people of all ages with severe underlying health conditions are at higher risk of developing serious COVID-19 illness. There may be less of a chance of the virus spreading from certain types of touching, such as holding the hand or hugging after the body has been prepared for viewing. Other activities, such as kissing, washing, and shrouding should be avoided before, during, and after the body has been prepared, if possible. If washing the body or shrouding are important religious or cultural practices, families are encouraged to work with their community cultural and religious leaders and funeral home staff on how to reduce their exposure as much as possible. At a minimum, people conducting these activities should wear disposable gloves. If splashing of fluids is expected, additional personal protective equipment (PPE) may be required (such as disposable gown, faceshield or goggles and facemask).\n\nCleaning should be conducted in accordance with manufacturer╬ô├ç├ûs instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.). [Products with EPA-approved emerging viral pathogens claimspdf iconexternal icon](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf) are expected to be effective against COVID-19 based on data for harder to kill viruses. After removal of PPE, perform [hand hygiene](https://www.cdc.gov/handwashing/when-how-handwashing.html) by washing hands with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water are not available. Soap and water should be used if the hands are visibly soiled.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Am I at risk if I touch someone who died of COVID-19 after they have passed away?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 81,
+      "answer": "A funeral or visitation service can be held for a person who has died of COVID-19. Funeral home workers should follow their routine infection prevention and control precautions when handling a decedent who died of COVID-19. If it is necessary to transfer a body to a bag, follow [Standard Precautions](https://www.cdc.gov/infectioncontrol/basics/standard-precautions.html), including additional personal protective equipment (PPE) if splashing of fluids is expected. For transporting a body after the body has been bagged, disinfect the outside of the bag with a [product with EPA-approved emerging viral pathogens claimspdf iconexternal icon](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)Γö¼├íexpected to be effective against COVID-19 based on data for harder to kill viruses. Follow the manufacturer╬ô├ç├ûs instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.). Wear disposable nitrile gloves when handling the body bag.\n\nEmbalming can be conducted. During embalming, follow Standard Precautions including the use of additional PPE if splashing is expected (e.g. disposable gown, faceshield or goggles and facemask). Wear appropriate respiratory protection if any procedures will generate aerosols or if required for chemicals used in accordance with the manufacturer╬ô├ç├ûs label. Wear heavy-duty gloves over nitrile disposable gloves if there is a risk of cuts, puncture wounds, or other injuries that break the skin. Additional information on how to safely conduct aerosol-generating procedures is in the [CDC╬ô├ç├ûs Postmortem Guidance](/coronavirus/2019-ncov/hcp/guidance-postmortem-specimens.html#autopsy). Cleaning should be conducted in accordance with manufacturer╬ô├ç├ûs instructions. [Products with EPA-approved emerging viral pathogens claimspdf iconexternal icon](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)Γö¼├íare expected to be effective against COVID-19 based on data for harder to kill viruses. Follow the manufacturer╬ô├ç├ûs instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.).\n\nAfter cleaning and removal of PPE, perform [hand hygiene](https://www.cdc.gov/handwashing/when-how-handwashing.html) by washing hands with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water is not available. Soap and water should be used if the hands are visibly soiled.\n\nDecedents with COVID-19 can be buried or cremated, but check for any additional state and local requirements that may dictate the handling and disposition of the remains of individuals who have died of certain infectious diseases.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What do Funeral Home Workers need to know about handling decedents who had COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 82,
+      "answer": "When a US citizen dies outside the United States, the deceased person╬ô├ç├ûs next of kin or legal representative should notify US consular officials at the Department of State. Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies. If a family member, domestic partner, or legal representative is in a different country from the deceased person, he or she should call the Department of State╬ô├ç├ûs Office of Overseas Citizens Services in Washington, DC, from 8 am to 5 pm Eastern time, Monday through Friday, at 888-407-4747 (toll-free) or 202-501-4444. For emergency assistance after working hours or on weekends and holidays, call the Department of State switchboard at 202-647-4000 and ask to speak with the Overseas Citizens Services duty officer. In addition, the [US embassyexternal icon](https://www.usembassy.gov/) closest to or in the country where the US citizen died can provide assistance.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What should I do if my family member died from COVID-19 while overseas?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 83,
+      "answer": "CDC does not require an autopsy before the remains of a person who died overseas are returned to the United States. Depending on the circumstances surrounding the death, some countries may require an autopsy. Sources of support to the family include the local consulate or embassy, travel insurance provider, tour operator, faith-based and aid organizations, and the deceased╬ô├ç├ûs employer. There likely will need to be an official identification of the body and official documents issued by the consular office.\n\nCDC requirements for importing human remains depend upon if the body has been embalmed, cremated, or if the person died from a [quarantinable communicable disease](https://www.cdc.gov/quarantine/aboutlawsregulationsquarantineisolation.html).\n\nAt this time, COVID-19 is a quarantinable communicable disease in the United States and the remains must meet the standards for importation found inΓö¼├í42 Code of Federal Regulations Part 71.55Γö¼├íand may be cleared, released, and authorized for entry into the United States only under the following conditions:\n\n*   The remains are cremated; OR\n\n*   The remains are properly embalmed and placed in a hermetically sealed casket; OR\n\n*   The remains are accompanied by a permit issued by the CDC Director. The CDC permit (if applicable) must accompany the human remains at all times during shipment.\n\n    *   Permits for the importation of the remains of a person known or suspected to have died from a quarantinable communicable disease may be obtained through the CDC Division of Global Migration and Quarantine by calling the CDC Emergency Operations Center at 770-488-7100 or emailing [dgmqpolicyoffice@cdc.gov](mailto:dgmqpolicyoffice@cdc.gov).\n\nPlease see [CDC╬ô├ç├ûs guidance](http://www.cdc.gov/importation/human-remains.html) for additional information.\n\n## []( \"What CDC is Doing\")What CDC is Doing",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "My family member died from COVID-19 while overseas. What are the requirements for returning the body to the United States?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 84,
+      "answer": "This is an emerging, rapidly evolving situation and CDC will continue to provide updated information as it becomes available. CDC works 24/7 to protect people╬ô├ç├ûs health. More information about [CDC╬ô├ç├ûs response to COVID-19 - Situation Summary](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html))Γö¼├íis available online.\n\n##Γö¼├í",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is CDC doing about COVID-19?",
+        "what is the situation in USA"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 85,
+      "answer": "There is no reason at this time to think that any animals, including pets, in the United States might be a source of infection with this new coronavirus that causes COVID-19. To date, CDC has not received any reports of pets or other animals becoming sick with COVID-19 in the United States.\n\nPets have other types of coronaviruses that can make them sick, like canine and feline coronaviruses. These other coronaviruses cannot infect people and are not related to the current COVID-19 outbreak.\n\nHowever, since animals can spread other diseases to people, it╬ô├ç├ûs always a good idea to practice [healthy habits](https://www.cdc.gov/healthypets/publications/stay-healthy-pets.html) around pets and other animals, such as washing your hands and maintaining good hygiene. For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit CDC╬ô├ç├ûs [Healthy Pets, Healthy People website](https://www.cdc.gov/healthypets/index.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can I get COVID-19 from my pets or other animals?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 86,
+      "answer": "No. At this time, routine testing of animals for COVID-19 is not recommended.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Do I need to get my pet tested for COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 87,
+      "answer": "At this time, there is no evidence that the virus that causes COVID-19 can spread to people from the skin or fur of pets.\n\nTalk to your veterinarian about the best ways to care for your pet.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can animals carry the virus that causes COVID-19 on their skin or fur?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 88,
+      "answer": "You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the new coronavirus. When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I avoid contact with pets or other animals if I am sick with COVID-19?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 89,
+      "answer": "There is no reason to think that any animals, including shelter pets, in the United States might be a source of COVID-19.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Are pets from a shelter safe to adopt?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 90,
+      "answer": "CDC does not have any evidence to suggest that imported animals or animal products pose a risk for spreading COVID-19 in the United States. This is a rapidly evolving situation and information will be updated as it becomes available. The U.S. Centers for Disease Control and Prevention (CDC), the U. S. Department of Agriculture (USDA), and the U.S. Fish and Wildlife Service (FWS) play distinct but complementary roles in regulating the importation of live animals and animal products into the United States. [CDC regulates](https://www.cdc.gov/importation/index.html)Γö¼├íanimals and animal products that pose a threat to human health,Γö¼├í[USDA regulatesexternal icon](https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-and-animal-product-import-information/ct_animal_imports_home)Γö¼├íanimals and animal products that pose a threat to agriculture; andΓö¼├í[FWS regulatesexternal icon](https://www.fws.gov/le/businesses.html) importation of endangered species and wildlife that can harm the health and welfare of humans, the interests of agriculture, horticulture, or forestry, and the welfare and survival of wildlife resources.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What about imported animals or animal products?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 91,
+      "answer": "Please refer to [CDC╬ô├ç├ûs requirementsΓö¼├ífor bringing a dog to the United States](https://www.cdc.gov/importation/bringing-an-animal-into-the-united-states/index.html). The currentΓö¼├í[requirements for rabies vaccination](https://www.cdc.gov/importation/bringing-an-animal-into-the-united-states/rabies-vaccine.html) apply to dogs imported from China, a high-risk country for rabies.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can I travel to the United States with dogs or import dogs into the United States during the COVID-19 outbreak?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 92,
+      "answer": "Imported animals will need to meet [CDC](https://www.cdc.gov/importation/bringing-an-animal-into-the-united-states/index.html) and [USDAexternal icon](https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-and-animal-product-import-information/live-animal-imports/import-live-animals)Γö¼├írequirements for entering the United States. At this time, there is no evidence that companion animals, including pets and service animals, can spread COVID-19. As with any animal introduced to a new environment, animals recently imported should be observed daily for signs of illness. If an animal becomes ill, the animal should be examined by a veterinarian. Call your local veterinary clinicΓö¼├íbeforeΓö¼├íbringing the animal into the clinic and let them know that the animal was recently imported from another country.\n\nThis is a rapidly evolving situation and information will be updated as it becomes available.\n\n**See also: [Animals and COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/prepare/animals.html)**\n\n## []( \"School Dismissals and Children\")School Dismissals and Children",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What precautions should be taken for animals that have recently been imported from outside the United States (for example, by shelters, rescues, or as personal pets)?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 93,
+      "answer": "*   The key to slowing the spread of COVID-19 is to limit contact as much as possible. If you have play dates, keep the groups small. Encourage older children to hang out in a small group and to meet outside rather than inside. It╬ô├ç├ûs easier to keep and maintain space between others in outdoor settings, like parks.\n\n*   If you have small meetups, consider hanging out with another family or friend who is also taking extra measures to put distance between themselves and others (social distancing). Make sure children practice [everyday preventive behaviors](https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html), such as washing their hands often with soap and water. Remember, if children meet outside of school in bigger groups, it can put everyone at risk.\n\n    *   Revise spring break plans if they included non-essential travel.\n\n*   Information about [COVID-19 in children](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/children-faq.html)Γö¼├íis somewhat limited, but current data suggest children with COVID-19 may only have mild symptoms. However, they can still pass this virus onto others who may be at higher risk, including [older adults and people who have serious underlying medical conditions](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/people-at-higher-risk.html).",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "While school╬ô├ç├ûs out, can my child hang out with their friends?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 94,
+      "answer": "*   Stay in touch with your child╬ô├ç├ûs school.\n\n    *   Many schools are offering lessons online (virtual learning). Review assignments from the school, and help your child establish a reasonable pace for completing the work. You may need to assist your child with turning on devices, reading instructions, and typing answers.\n\n    *   Communicate challenges to your school. If you face technology or connectivity issues, or if your child is having a hard time completing assignments, let the school know.\n\n*   Create a schedule and routine for learning at home, but remain flexible.\n\n    *   Have consistent bedtimes, and get up at the same time, Monday through Friday.\n\n    *   Structure the day for learning, free time, healthy meals and snacks, and physical activity.\n\n    *   Allow flexibility in the schedule╬ô├ç├╢it╬ô├ç├ûs okay to adapt based on your day.\n\n*   Consider the needs and adjustment required for your child╬ô├ç├ûs age group.\n\n    *   The transition to being at home will be different for preschoolers, K-5, middle school students, and high school students. Talk to your child about expectations and how they are adjusting to being at home versus at school.\n\n    *   Consider ways your child can stay connected with their friends without spending time in person.\n\n*   Look for ways to make learning fun.\n\n    *   Have hands-on activities, like puzzles, painting, drawing, and making things.\n    *   Independent play can also be used in place of structured learning. Encourage children to build a fort from sheets or practice counting by stacking blocks.\n    *   Practice handwriting and grammar by writing letters to family members. This is a great way to connect and limit face-to-face contact.\n    *   Start a journal with your child to document this time and discuss the shared experience.\n    *   Use audiobooks or see if your local library is hosting virtual or live-streamed reading events.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "While school╬ô├ç├ûs out, how can I help my child continue learning?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 95,
+      "answer": "*   Check with your school on plans to continue meal services during the school dismissal. Many schools are keeping school facilities open to allow families to pick up meals or are providing grab-and-go meals at a central location.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "While school╬ô├ç├ûs out, will kids have access to meals?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 96,
+      "answer": "*   **Watch your child for any signs of illness. **\n\n    *   If you see any sign of illness consistent with [symptoms of COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html), particularly fever, cough, or shortness of breath, call your healthcare provider and keep your child at home and away from others as much as possible. Follow CDC╬ô├ç├ûs guidance on ╬ô├ç┬ú[What to do if you are sick](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fsteps-when-sick.html).╬ô├ç┬Ñ\n\n*   **Watch for signs of stress in your child. **\n\n    *   Some common changes to watch for include excessive worry or sadness, unhealthy eating or sleeping habits, and difficulty with attention and concentration. For more information, see the ╬ô├ç┬úFor Parents╬ô├ç┬Ñ section on CDC╬ô├ç├ûs website, [Manage Anxiety and Stress](https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html).\n\n    *   Take time to talk with your child or teen about the COVID-19 outbreak. Answer questions and [share facts](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/share-facts.html)Γö¼├íabout COVID-19 in a way that your child or teen can understand.\n\n    *   Go to CDC╬ô├ç├ûs [Helping Children Cope with Emergencies](https://www.cdc.gov/childrenindisasters/helping-children-cope.html)Γö¼├íor [Talking with Children About COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/community/schools-childcare/talking-with-children.html)Γö¼├ífor more information.\n\n*   **Teach and reinforce [everyday preventive actions](https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html)****.**\n\n    *   Parents and caretakers play an important role in teaching children to wash their hands. Explain that hand washing can keep them healthy and stop the virus from spreading to others.\n\n    *   Be a good role model╬ô├ç├╢if you wash your hands often, they╬ô├ç├ûre more likely to do the same.\n\n    *   Make [handwashing a family activity](https://www.cdc.gov/handwashing/handwashing-family.html).\n\n*   **Help your child stay active. **\n\n    *   Encourage your child to play outdoors╬ô├ç├╢it╬ô├ç├ûs great for physical and mental health. Take a walk with your child or go on a bike ride.\n\n    *   Use indoor activity breaks (stretch breaks, dance breaks) throughout the day to help your child stay healthy and focused.\n\n*   **Help your child stay socially connected.**\n\n    *   Reach out to friends and family via phone or video chats.\n    *   Write cards or letters to family members they may not be able to visit.\n    *   Some schools and non-profits, such as the [Collaborative for Academic, Social, and Emotional Learningexternal icon](https://casel.org/)Γö¼├íand [The Yale Center for Emotional Intelligenceexternal icon](http://ei.yale.edu/), have resources for social and emotional learning. Check to see if your school has tips and guidelines to help support social and emotional needs of your child.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "While school╬ô├ç├ûs out, how can I keep my family healthy?"
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 97,
+      "answer": "*   [Older adults and people who have serious underlying medical conditions](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/people-at-higher-risk.html) are at highest risk of getting sick from COVID-19.\n\n    *   If others in your home are at particularly [high risk for severe illness from COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html), consider extra precautions to separate your child from those people.\n    *   If you are unable to stay home with your child during school dismissals, carefully consider who might be best positioned to provide childcare. If someone at higher risk for COVID-19 will be providing care (older adult, such as a grandparent or someone with a serious underlying medical condition), limit your children╬ô├ç├ûs contact with other people.\n    *   Consider postponing visits or trip to see older family members and grandparents. Connect virtually or by writing letters and sending via mail.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "While school╬ô├ç├ûs out, limit time with older adults, including relatives, and people with chronic medical conditions."
+      ],
+      "metadata": [
+        {
+          "name": "https",
+          "value": "//www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        }
+      ],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 98,
+      "answer": "Coronavirus disease 2019 (COVID-19) is a respiratory illness\nthat can spread from person to person. The virus that causes\nCOVID-19 is a novel coronavirus that was first identified during\nan investigation into an outbreak in Wuhan, China.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "what is covid-19",
+        "what is coronavirus?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 99,
+      "answer": "There is no specific antiviral treatment for COVID-19. People with COVID-19 can seek medical care to help relieve symptoms.There is currently no vaccine to protect against COVID-19. The\nbest way to prevent infection is to take everyday preventive\nactions, like avoiding close contact with people who are sick and\nwashing your hands often.Γö¼├í",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Is there a cure for covid-19",
+        "Is there a vaccine?",
+        "Is there a treatment?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 100,
+      "answer": "If you are sick, to keep from spreading respiratory illness\nto others, you should\n╬ô├ç├│ Stay home when you are sick.\n╬ô├ç├│ Cover your cough or sneeze with a tissue, then throw the\ntissue in the trash.\n╬ô├ç├│ Clean and disinfect frequently touched objects\nand surfaces.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "i feel sick",
+        "I feel ill",
+        "I feel unwell"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 101,
+      "answer": "[https://www.businessnewsdaily.com/7712-work-life-balance-home-entrepreneurs.html](https://www.businessnewsdaily.com/7712-work-life-balance-home-entrepreneurs.html)",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "how to improve work life balance when work from home"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 102,
+      "answer": "A pandemic is a global outbreak of disease. Pandemics happen when a new virus emerges to infect people and can spread between people sustainably. Because there is little to no pre-existing immunity against the new virus, it spreads worldwide.Γö¼├í\n\nThe virus that causes COVID-19 is infecting people and spreading easily from person-to-person. Cases have been detected in most countries worldwide and community spread is being detected in a growing number of countries. On March 11, the COVID-19 outbreak was characterized as a pandemic by the WHO.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is pandemic",
+        "Is Covid-19 a pandemic\\n\\n",
+        "Is the coronavirus disease a pandemic?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 103,
+      "answer": "Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is the recovery time for the coronavirus disease?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 104,
+      "answer": "People could catch COVID-19 by touching contaminated surfaces or objects ╬ô├ç├┤ and then touching their eyes, nose or mouth.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Can you contract the coronavirus disease by touching a surface?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 105,
+      "answer": "People who are mildly ill with COVID-19 are able to isolate at home during their illness. You should restrict activities outside your home, except for getting medical care. Do not go to work, school, or public areas. Avoid using public transportation, ride-sharing, or taxis.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I go to the hospital if I am sick?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 106,
+      "answer": "People at higher risk for severe disease are older adults and people of any age with serious chronic medical conditions (such as heart disease, lung disease, or diabetes). CDC recommends that travelers at higher risk for COVID-19 complications avoid all cruise travel and nonessential air travel.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "Should I travel during the coronavirus disease outbreak?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 107,
+      "answer": "Social distancing, or physical distancing, is a set of non-pharmaceutical interventions or measures taken to prevent the spread of a contagious disease by maintaining a physical distance between people and reducing the number of times people come into close contact with each other.Γö¼├í",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "what is social distancing"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 108,
+      "answer": "A presumptive positive result is when a patient has tested positive by a public health laboratory, but results are pending confirmation at CDC. For public health purposes, a presumptive positive result using the CDC test is treated as a positive.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "What is meant by \"presumptive positive cases\" for the coronavirus disease?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 109,
+      "answer": "Governments useΓö¼├í[quarantines](https://www.cdc.gov/quarantine/quarantineisolation.html)Γö¼├íto stop the spread of contagious diseases. Quarantines are for people or groups who don╬ô├ç├ût have symptoms but were exposed to the sickness. A quarantine keeps them away from others so they don╬ô├ç├ût unknowingly infect anyone.Γö¼├í\n\nQuarantines may be used during:Γö¼├í\n\n*   Outbreaks:Γö¼├íWhen there╬ô├ç├ûs a sudden rise in the number of cases of a disease.\n\n* Epidemics:Γö¼├íSimilar to outbreaks, but generally considered larger and more widespread.\n\n* Pandemics:Γö¼├íLarger than epidemics, generally global in nature and affect more people.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "what does Quarantine mean"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 110,
+      "answer": "While isolation serves the same purpose as quarantine, it╬ô├ç├ûs reserved for those who are already sick. It keepsΓö¼├í*infected*Γö¼├ípeople away from healthy people to prevent the sickness from spreading.Γö¼├í",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "what is the difference between isolation and quarantine",
+        "isolation vs quarantine\\n\\n"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 111,
+      "answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+      "source": "COVID19FQA.tsv",
+      "questions": [
+        "what does quarantine mean"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    }
+  ]
+}

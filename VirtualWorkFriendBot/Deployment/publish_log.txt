@@ -1,0 +1,32 @@
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Services\BotServices.cs(32,21): warning CS0618: 'LuisPredictionOptions.TelemetryClient' is obsolete: 'Member is deprecated, please use LuisRecognizerOptionsV2 to set this value).' [C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\VirtualWorkFriendBot.csproj]
+Services\BotServices.cs(33,21): warning CS0618: 'LuisPredictionOptions.LogPersonalInformation' is obsolete: 'Member is deprecated, please use LuisRecognizerOptionsV2 to set this value).' [C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\VirtualWorkFriendBot.csproj]
+Services\BotServices.cs(38,39): warning CS0618: 'LuisRecognizer.LuisRecognizer(LuisApplication, LuisPredictionOptions, bool, HttpClientHandler)' is obsolete: 'Constructor is deprecated, please use LuisRecognizer(LuisRecognizerOptions recognizer).' [C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\VirtualWorkFriendBot.csproj]
+Services\BotServices.cs(45,56): warning CS0618: 'LuisRecognizer.LuisRecognizer(LuisApplication, LuisPredictionOptions, bool, HttpClientHandler)' is obsolete: 'Constructor is deprecated, please use LuisRecognizer(LuisRecognizerOptions recognizer).' [C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\VirtualWorkFriendBot.csproj]
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "Push-Deployer",
+  "end_time": "2020-03-11T03:56:00.4970908Z",
+  "id": "b3676d5b10ed43869cff4140058c9372",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2020-03-11T03:56:00.4970908Z",
+  "log_url": "https://virtualworkfriendbot-z7swhrs.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "provisioningState": null,
+  "received_time": "2020-03-11T03:55:53.0336112Z",
+  "site_name": "virtualworkfriendbot-z7swhrs",
+  "start_time": "2020-03-11T03:55:54.7183683Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://virtualworkfriendbot-z7swhrs.scm.azurewebsites.net/api/deployments/latest"
+}
+WARNING: Getting scm site credentials for zip deployment
+WARNING: Starting zip deployment. This operation can take a while to complete ...
+WARNING: Deployment endpoint responded with status code 202

@@ -1,0 +1,22 @@
+AZ CLI passes minimum version. Current version is 2.5.1
+LUIS app :5e8858d7-390d-4cf9-a3d0-e8badb6d3133 already added to virtualworkfriendboten-us_Dispatch.dispatch
+QnA kb id:24bf4203-a94d-42c7-995f-d94455d08313, name:Chitchat already added to virtualworkfriendboten-us_Dispatch.dispatch
+QnA kb id:e7c79f40-9f33-447a-bb28-80cdb2ce51a6, name:Faq already added to virtualworkfriendboten-us_Dispatch.dispatch
+QnA kb id:6c459496-0ebd-423e-af0e-f4e8861acb6a, name:COVID19 already added to virtualworkfriendboten-us_Dispatch.dispatch
+Exporting services for dispatch...
+Exporting virtualworkfriendboten-us_General LUIS application...
+Exported LUIS app JSON is at C:\Users\dax\OneDrive - Microsoft\MentalHealthBot\Pikachu\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_L_virtualworkfriendboten-us_General.json
+Exporting Chitchat QnA kb...
+Exported QnA app JSON is at C:\Users\dax\OneDrive - Microsoft\MentalHealthBot\Pikachu\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_Q_q_Chitchat.json
+Expanding kb 24bf4203-a94d-42c7-995f-d94455d08313 with word alterations
+Exporting Faq QnA kb...
+Exported QnA app JSON is at C:\Users\dax\OneDrive - Microsoft\MentalHealthBot\Pikachu\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_Q_q_Faq.json
+Expanding kb e7c79f40-9f33-447a-bb28-80cdb2ce51a6 with word alterations
+Exporting COVID19 QnA kb...
+
+ERROR
+One or more errors occurred. (The remote server returned an error: (401) PermissionDenied.)
+
+Request url: https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/6c459496-0ebd-423e-af0e-f4e8861acb6a/Test/qna
+Response: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+------

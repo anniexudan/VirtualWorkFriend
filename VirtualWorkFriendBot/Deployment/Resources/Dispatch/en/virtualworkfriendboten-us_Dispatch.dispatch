@@ -1,0 +1,59 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "5e8858d7-390d-4cf9-a3d0-e8badb6d3133",
+      "authoringKey": "06aea90995644266850a84b45e013eb0",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "virtualworkfriendboten-us_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Chitchat",
+      "includePrompts": true,
+      "kbId": "24bf4203-a94d-42c7-995f-d94455d08313",
+      "subscriptionKey": "219540d21a764ee4a83d2fd7d36c2711",
+      "type": "qna",
+      "name": "Chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "e7c79f40-9f33-447a-bb28-80cdb2ce51a6",
+      "subscriptionKey": "219540d21a764ee4a83d2fd7d36c2711",
+      "type": "qna",
+      "name": "Faq",
+      "id": "3"
+    },
+    {
+      "intentName": "q_COVID19",
+      "kbId": "6c459496-0ebd-423e-af0e-f4e8861acb6a",
+      "subscriptionKey": "117da521-b845-491d-a208-319775052202",
+      "type": "qna",
+      "name": "COVID19",
+      "id": "4"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "appId": "f3816f65-b6fc-4bcb-82b5-f05413759106",
+  "authoringKey": "06aea90995644266850a84b45e013eb0",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "virtualworkfriendboten-us_Dispatch"
+}

@@ -1,0 +1,135 @@
+AZ CLI passes minimum version. Current version is 2.2.0
+virtualworkfriendboten-us_Dispatch.dispatch created
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   9         Queued             
+ Confirm                            Intent Classifier   9         Queued             
+ DirectionalReference               Entity Extractor    9         Queued             
+ Escalate                           Intent Classifier   9         Queued             
+ ExtractName                        Intent Classifier   9         Queued             
+ FinishTask                         Intent Classifier   9         Queued             
+ GoBack                             Intent Classifier   9         Queued             
+ Help                               Intent Classifier   9         Queued             
+ Logout                             Intent Classifier   9         Queued             
+ None                               Intent Classifier   9         Queued             
+ ReadAloud                          Intent Classifier   9         Queued             
+ Reject                             Intent Classifier   9         Queued             
+ Repeat                             Intent Classifier   9         Queued             
+ SelectAny                          Intent Classifier   9         Queued             
+ SelectItem                         Intent Classifier   9         Queued             
+ SelectNone                         Intent Classifier   9         Queued             
+ ShowNext                           Intent Classifier   9         Queued             
+ ShowPrevious                       Intent Classifier   9         Queued             
+ StartOver                          Intent Classifier   9         Queued             
+ Stop                               Intent Classifier   9         Queued             
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ ExtractName                        Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ ExtractName                        Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   0         Success            
+ Confirm                            Intent Classifier   0         Success            
+ Escalate                           Intent Classifier   0         Success            
+ ExtractName                        Intent Classifier   0         Success            
+ FinishTask                         Intent Classifier   0         Success            
+ GoBack                             Intent Classifier   0         Success            
+ Help                               Intent Classifier   0         Success            
+ Logout                             Intent Classifier   0         Success            
+ None                               Intent Classifier   0         Success            
+ ReadAloud                          Intent Classifier   0         Success            
+ Reject                             Intent Classifier   0         Success            
+ Repeat                             Intent Classifier   0         Success            
+ SelectAny                          Intent Classifier   0         Success            
+ SelectItem                         Intent Classifier   0         Success            
+ SelectNone                         Intent Classifier   0         Success            
+ ShowNext                           Intent Classifier   0         Success            
+ ShowPrevious                       Intent Classifier   0         Success            
+ StartOver                          Intent Classifier   0         Success            
+ Stop                               Intent Classifier   0         Success            
+ DirectionalReference               Entity Extractor    0         Success            
+The command line is too long.
+NotStarted...
+Running...
+Running...
+Running...
+Running...
+Running...
+Running...
+Running...
+Running...
+Succeeded... done
+NotStarted...
+Running...
+Running...
+Running...
+Succeeded... done
+Exporting services for dispatch...
+Exporting virtualworkfriendboten-us_General LUIS application...
+Exported LUIS app JSON is at C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_L_virtualworkfriendboten-us_General.json
+Exporting Chitchat QnA kb...
+Exported QnA app JSON is at C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_Q_q_Chitchat.json
+Expanding kb 24bf4203-a94d-42c7-995f-d94455d08313 with word alterations
+Exporting Faq QnA kb...
+Exported QnA app JSON is at C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_Q_q_Faq.json
+Expanding kb e7c79f40-9f33-447a-bb28-80cdb2ce51a6 with word alterations
+Creating dispatch LUIS model json...
+Creating training data...
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\train.txt' that were used by multiple intents: 24
+WARNING: very few samples (breaking-point for debugging purpose), foldSize=0.6, foldsCount=5, Samples.Length=3, category=None, TrainingSamplesCount=2, TestingSamplesCount=1
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold000\train.txt' that were used by multiple intents: 17
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold000\test.txt' that were used by multiple intents: 1
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold001\train.txt' that were used by multiple intents: 16
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold001\test.txt' that were used by multiple intents: 1
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold002\train.txt' that were used by multiple intents: 14
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold002\test.txt' that were used by multiple intents: 2
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold003\train.txt' that were used by multiple intents: 16
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold004\train.txt' that were used by multiple intents: 15
+WARNING: Number of utterances in 'C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold004\test.txt' that were used by multiple intents: 2
+Updating virtualworkfriendboten-us_Dispatch model...
+Training virtualworkfriendboten-us_General...
+Importing virtualworkfriendboten-us_Dispatch model...
+Setting up intents to child services mapping for virtualworkfriendboten-us_Dispatch...
+Add subscription key and publish child LUIS apps...
+Publishing virtualworkfriendboten-us_General model...
+Training virtualworkfriendboten-us_Dispatch model...
+Publishing virtualworkfriendboten-us_Dispatch model...
+Writing summary file ('test_prediction')...
+Please review your dispatch model in C:\Projects\VirtualWorkFriend\VirtualWorkFriendBot\VirtualWorkFriendBot\Deployment\Resources\Dispatch\en-us\Summary.html
+The command line is too long.

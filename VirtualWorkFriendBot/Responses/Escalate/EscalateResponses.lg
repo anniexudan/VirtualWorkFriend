@@ -1,0 +1,120 @@
+﻿
+# TherapistRecommendationCard
+[Activity
+    Attachments = @{json(TherapistRecommendationCardJson())}
+]
+
+# TherapistRecommendationCardJson
+- ```
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "speak": "Tom's Pie is a Pizza restaurant which is rated 9.3 by customers.",
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{location.city}, {location.state}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{name}",
+                            "weight": "Bolder",
+                            "size": "ExtraLarge",
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "{rating <= 1}",
+                            "text": "{rating} ★☆☆☆☆ ({review_count})",
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "{rating <= 2}",
+                            "text": "{rating} ★★☆☆☆ ({review_count})",
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "{rating <= 3}",
+                            "text": "{rating} ★★★☆☆ ({review_count})",
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "{rating <= 4}",
+                            "text": "{rating} ★★★★☆ ({review_count})",
+                            "isSubtle": true,
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "{rating <= 5}",
+                            "text": "{rating} ★★★★★ ({review_count})",
+                            "isSubtle": true,
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "{image_url}",
+                            "size": "auto"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "speak": "Tom's Pie is a Pizza restaurant which is rated 9.3 by customers.",
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{location.display_address[0]}, {location.display_address[1]}",
+                            "size": "auto"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Call: {display_phone}",
+                            "size": "auto"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "More Info",
+            "url": "{url}"
+        }
+    ]
+}
+```

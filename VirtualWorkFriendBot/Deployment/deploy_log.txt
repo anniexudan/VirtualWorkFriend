@@ -1,0 +1,587 @@
+AZ CLI passes minimum version. Current version is 2.2.0
+{
+  "error": null,
+  "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "bbee4f49-c71f-4242-9f11-aec65bff2998",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/serverfarms/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-z7swhrs",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Insights/components/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.BotService/botServices/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-z7swhrs",
+        "resourceType": "Microsoft.BotService/botServices"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-luisruntime-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-luisruntime-z7swhrs",
+            "resourceType": "Microsoft.CognitiveServices/accounts"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-luisauthoring-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-luisauthoring-z7swhrs",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/Sites/virtualworkfriendbot-qnahost-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-qnahost-z7swhrs",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Search/searchServices/virtualworkfriendbot-search-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-search-z7swhrs",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/microsoft.insights/components/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "microsoft.insights/components"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-qna-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-qna-z7swhrs",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/serverFarms/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Web/serverFarms"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-qnahost-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-qnahost-z7swhrs",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/Sites/virtualworkfriendbot-qnahost-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-qnahost-z7swhrs",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Insights/components/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Search/searchServices/virtualworkfriendbot-search-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-search-z7swhrs",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "actionName": "listAdminKeys",
+            "apiVersion": "2015-08-19",
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Search/searchServices/virtualworkfriendbot-search-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-search-z7swhrs",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Insights/components/virtualworkfriendbot-z7swhrs",
+            "resourceGroup": "VirtualWorkFriendBotRG",
+            "resourceName": "virtualworkfriendbot-z7swhrs",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-qnahost-z7swhrs/config/appsettings",
+        "resourceGroup": "VirtualWorkFriendBotRG",
+        "resourceName": "virtualworkfriendbot-qnahost-z7swhrs/appsettings",
+        "resourceType": "Microsoft.Web/sites/config"
+      }
+    ],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "contentModeratorLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "contentModeratorName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-cm-z7swhrs"
+      },
+      "contentModeratorSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-luisauthoring-z7swhrs"
+      },
+      "luisAuthoringSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "luisRuntimeLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisRuntimeName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-luisruntime-z7swhrs"
+      },
+      "luisRuntimeSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "cf8c74ad-0467-4e84-87c8-5e78bd4b843e"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "virtualworkfriendi@msuperman11"
+      },
+      "name": {
+        "type": "String",
+        "value": "virtualworkfriendbot"
+      },
+      "qnaMakerSearchLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "qnaMakerSearchName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-search-z7swhrs"
+      },
+      "qnaMakerSearchSku": {
+        "type": "String",
+        "value": "standard"
+      },
+      "qnaMakerServiceLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "qnaMakerServiceName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-qna-z7swhrs"
+      },
+      "qnaMakerServiceSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "qnaMakerWebAppLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "qnaMakerWebAppName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-qnahost-z7swhrs"
+      },
+      "resourceTagName": {
+        "type": "String",
+        "value": "bot"
+      },
+      "resourceTagValue": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "virtualworkfriendbot-z7swhrs"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "z7swhrs"
+      },
+      "useContentModerator": {
+        "type": "Bool",
+        "value": true
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useLuisAuthoring": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "sites/config"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Search",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "searchServices"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "2763176848692134897",
+    "templateLink": null,
+    "timestamp": "2020-03-11T03:41:39.114633+00:00",
+    "validatedResources": [
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Resources/deployments/3822b5f4-d098-4b57-9ee6-3bee686aec4c",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.DocumentDB/databaseAccounts/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Storage/storageAccounts/virtualworkfriendbotz7sw",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/serverFarms/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Insights/components/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.BotService/botServices/virtualworkfriendbot-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-cm-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-luisruntime-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-luisauthoring-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.CognitiveServices/accounts/virtualworkfriendbot-qna-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Search/searchServices/virtualworkfriendbot-search-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-qnahost-z7swhrs",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      },
+      {
+        "id": "/subscriptions/688465d2-035b-4d14-aaf0-8ac631fec25e/resourceGroups/VirtualWorkFriendBotRG/providers/Microsoft.Web/sites/virtualworkfriendbot-qnahost-z7swhrs/config/appsettings",
+        "resourceGroup": "VirtualWorkFriendBotRG"
+      }
+    ]
+  },
+  "resourceGroup": "VirtualWorkFriendBotRG",
+  "type": "Microsoft.Resources/deployments"
+}
+This command is implicitly deprecated because command group 'group deployment' is deprecated and will be removed in a future release. Use 'deployment group' instead.
+This command is implicitly deprecated because command group 'group deployment' is deprecated and will be removed in a future release. Use 'deployment group' instead.
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "96876f6c-655a-46ac-a987-094b0d0accbc"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=virtualworkfriendbotz7sw;AccountKey=RX9tWE64RCjiHUGSq9aI2bOG2b6/g50I/xY/dtjyrZIPU7L0g1uFDZsrkoisyO7yv6KxW1vyNUtaGzZk/m0GWg==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "virtualworkfriendbot-z7swhrs"
+  },
+  "contentModerator": {
+    "type": "Object",
+    "value": {
+      "key": "9d7fa5f498794115b34911f514122ee8"
+    }
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "zrtX1iFMzlymcz0MFBJZoA2rkIoFmPm9nozfdACZiON5wPgIsXJbHFITBwSgvKYkoBxN8wps8bmfQ6rH9939nQ==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://virtualworkfriendbot-z7swhrs.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "virtualworkfriendbot-luisruntime-z7swhrs",
+      "authoringKey": "06aea90995644266850a84b45e013eb0",
+      "authoringRegion": "westus",
+      "key": "3c9cae9aaa634cb5962200408f717ad2",
+      "region": "westus"
+    }
+  },
+  "qnaMaker": {
+    "type": "Object",
+    "value": {
+      "endpoint": "https://virtualworkfriendbot-qnahost-z7swhrs.azurewebsites.net",
+      "key": "219540d21a764ee4a83d2fd7d36c2711"
+    }
+  },
+  "resourceGroupName": {
+    "type": "String",
+    "value": "virtualworkfriendbot"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "luis_schema_version": "4.0.0",
+  "intents": [
+    {
+      "name": "l_General"
+    },
+    {
+      "name": "q_Chitchat"
+    },
+    {
+      "name": "q_Faq"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [],
+  "versionId": "Dispatch",
+  "name": "virtualworkfriendboten-us_Dispatch",
+  "desc": "Dispatch model for virtualworkfriendboten-us_Dispatch",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [
+    {
+      "name": "PersonName.Any",
+      "roles": [],
+      "explicitList": []
+    }
+  ],
+  "regex_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "(i'm|i am) {PersonName.Any}[.]",
+      "intent": "l_General"
+    },
+    {
+      "pattern": "(it's|it is|this is) {PersonName.Any}[.]",
+      "intent": "l_General"
+    },
+    {
+      "pattern": "([you can]|[please]) call me {PersonName.Any}[.]",
+      "intent": "l_General"
+    },
+    {
+      "pattern": "my name is {PersonName.Any}[.]",
+      "intent": "l_General"
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}

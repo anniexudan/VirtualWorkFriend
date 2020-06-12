@@ -1,0 +1,47 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en": {
+      "languageModels": [
+        {
+          "name": "[...]",
+          "id": "General",
+          "version": "0.1",
+          "authoringkey": "[...]",
+          "subscriptionkey": "[...]",
+          "appid": "[...]",
+          "authoringRegion": "[...]",
+          "region": "[...]"
+        }
+      ],
+      "dispatchModel": {
+        "name": "[...]",
+        "version": "Dispatch",
+        "authoringkey": "[...]",
+        "type": "dispatch",
+        "subscriptionkey": "[...]",
+        "appid": "[...]",
+        "authoringRegion": "[...]",
+        "region": "[...]"
+      },
+      "knowledgebases": [
+        {
+          "kbId": "[...]",
+          "subscriptionKey": "[...]",
+          "endpointKey": "[...]",
+          "hostname": "https://[...].azurewebsites.net",
+          "name": "Chitchat",
+          "id": "Chitchat"
+        },
+        {
+          "kbId": "[...]",
+          "subscriptionKey": "[...]",
+          "endpointKey": "[...]",
+          "hostname": "https://[...].azurewebsites.net",
+          "name": "Faq",
+          "id": "Faq"
+        }
+      ]
+    }
+  }
+}
