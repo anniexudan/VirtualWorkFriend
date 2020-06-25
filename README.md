@@ -2,6 +2,14 @@
 A Microsoft Azure based bot application helping people in workforce to reduce stress.
 [![BotImage](https://virtualworkfriendbotz7sw.blob.core.windows.net/images/Bot.png)](https://virtualworkfriend.azurewebsites.net)
 
+## Test Accounts:
+•	carac@M365EDU639973.onmicrosoft.com
+•	SamuelP@M365EDU639973.onmicrosoft.com
+•	AlexW@M365EDU639973.OnMicrosoft.com
+Password:
+5xyaVezv8Q
+
+
 # Project Background
 There are many benefits of talking to someone because you can:
 
