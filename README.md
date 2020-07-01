@@ -6,8 +6,7 @@ A Microsoft Azure based bot application helping people in workforce to reduce st
 •	carac@M365EDU639973.onmicrosoft.com
 •	SamuelP@M365EDU639973.onmicrosoft.com
 •	AlexW@M365EDU639973.OnMicrosoft.com
-Password:
-5xyaVezv8Q
+
 
 ## Demo video
 https://microsoft-my.sharepoint.com/:v:/g/personal/dax_microsoft_com1/ETlilk8QYSpOlHCnVg8S2BIBK1SboNKkv1mOOlpFAukK7w?e=6ieKTK
