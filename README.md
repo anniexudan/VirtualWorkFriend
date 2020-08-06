@@ -30,9 +30,9 @@ Virtual Work Friend is the a AI based product which can:
 
 In this repository, you will find the architectual diagram, the bot conversation composer files for conversation flow design and the codebase of this solution. 
 
-# Full Demo: 
+# Full Demo and Tutourials Youtube Channel: 
 
-https://www.youtube.com/watch?v=hgz7K2L-W1c&t
+https://www.youtube.com/channel/UCjKJLZ4M76icyiNe3He6jiA
 
 # Feature Demos:
 ### 1. Login 
